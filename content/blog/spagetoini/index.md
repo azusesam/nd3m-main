@@ -49,4 +49,4 @@ WS の後は参加者の自己紹介もかねて自分が今までかかわっ�
 
 </div>
 
-[movie](https://twitter.com/azusa353/status/1256035798681399296?s=20)-Twitter に飛びます
+[movie](https://youtu.be/BCpumtefko4)-Youtube に飛びます

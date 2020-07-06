@@ -56,6 +56,8 @@ const AboutPage = ({ data }, location) => {
             また技術だけでなく、その背景や歴史を学ぶことで
             高付加価値なデザインの提供を行う。
           </p>
+
+          <p>コンタクトは右上のTwitterのDMから受付してます。</p>
           {/* <p>
             Both post and page templates are light and minimal, with all the
             focus on the content while the design of the theme gets out of the
