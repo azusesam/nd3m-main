@@ -84,11 +84,11 @@ const Layout = props => {
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
         Built with{" "}
         <a
-          href="https://gatsbyjs.org"
+          href="https://twitter.com/Yosymatu"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gatsby
+          Yosymatu
         </a>
       </footer>
     </div>
