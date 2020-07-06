@@ -17,8 +17,17 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        title="ND3M"
+        keywords={[
+          `ND3M`,
+          `nagoya digital design developer meeting`,
+          `デジタルデザイン`,
+          `コンピュテーショナルデザイン`,
+          `ファブリケーション`,
+        ]}
+        description="ND3M(nagoya digital design developer meeting)は名古屋を拠点に、「建築と異分野の融合」を軸とし、
+        中心に過去から未来へ時間軸を横断しながら研究・思考・議論をしていくスペシャリスト集団。デジタルデザインやコンピュテーショナルデザイン・
+        ファブリケーションを主に行っている。"
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
