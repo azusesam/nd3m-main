@@ -1,3 +1,10 @@
+---
+title: BoiledSpaghetoiniTime
+date: ""
+thumbnail: 
+description: ND3Mのメンバーが毎週不定期でその週に読んだ本や、活動、興味を持ったことをまとめた記事。
+---
+
 # スパゲットーニの茹で時間
 
 ND3Mのメンバーが毎週不定期でその週に読んだ本や、活動、興味を持ったことをまとめた記事。
