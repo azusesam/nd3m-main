@@ -1,8 +1,3 @@
----
-title: "UnravelFuture"
-tags: "nd3m"
----
-
 # UnravelFuture
 
 2020年5月22日
