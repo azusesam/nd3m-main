@@ -1,3 +1,10 @@
+---
+title: LightingCompetition
+date: "2020-03-18"
+thumbnail: ./mainperspective.png
+description: 照明のコンペティションへの氷を使った照明の出展。
+---
+
 ## 照明コンペ
 
 照明のコンペティションへの氷を使った照明の出展
