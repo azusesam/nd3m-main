@@ -1,3 +1,10 @@
+---
+title: Zigokugumi
+date: ""
+thumbnail: ./zigokugumi.jpg
+description: 構造設計事務所ディックスのオフィス3階天井に地獄組を取り付けるプロジェクト。
+---
+
 # 地獄組
 進行中
 
