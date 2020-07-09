@@ -1,8 +1,3 @@
----
-title: "照明コンペ"
-tags: "ND3M"
----
-
 ## 照明コンペ
 
 ![mainperspective](mainperspective.png)
