@@ -10,10 +10,10 @@
 別のプロジェクトで製作され、放置されていたものを天井の装飾として固定する。
 天井への取り付けのデザインをgrasshopperでスタディ
 
-![gh](gh.png)
+![gh](gh.PNG)
 
 取り付けのデザインをVRやARを用いて確認
 
 ![twinmotion](twinmotion.png)
 ![VR](vr.jpg)
-![AR](ar.png)
+![AR](ar.jpg)
