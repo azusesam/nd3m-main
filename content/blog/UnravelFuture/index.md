@@ -1,3 +1,10 @@
+---
+title: UnravelFuture
+date: "2020-05-22"
+thumbnail: ./UnravelFuture.jpg
+description: 豊田啓介氏の登壇する第一回電脳設計論壇での対談とそれに向けた勉強会。
+---
+
 # UnravelFuture
 
 2020年5月22日
