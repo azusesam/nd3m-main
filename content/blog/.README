@@ -1,0 +1,52 @@
+1. 画像を載せる際、画像サイズは１MB以下に収めること
+2. 画像が横長になった場合、エディタで画像の向きを確認し、もし90度回転していた場合、photoshop等回転を直す。
+3. 画像が大きく表示されてしまう等がある場合、divクラスを利用する。
+    1.
+    ```html
+    <div class="kg-card kg-image-card kg-width-mini">![画像名](画像.jpg)</div>
+    ```
+    kg-width-miniクラスを利用すると画像が少し小さくなります。
+
+    2. 
+    ```html
+    <div class="kg-card kg-image-card kg-width-wide">![画像名](画像.jpg)</div>
+    ```
+    kg-width-wideクラスを利用すると画像が少し大きくなります。
+
+    3. 
+    ```html
+    <div class="kg-card kg-image-card kg-width-full">![画像名](画像.jpg)</div>
+    ```
+    kg-width-wideクラスを利用すると画像がかなり大きくなります。
+4. 記事の最初に以下の文を必ず追加し、適宜変えてください。
+```md
+---
+title: タイトル
+date: "日付"
+thumbnail: ./サムネ画像.jpg
+description: 説明文
+---
+```
+
+5. チートシートをよめ
+https://qiita.com/Qiita/items/c686397e4a0f4f11683d
+
+6. Twitterの埋め込み
+Twitterから、各Tweetの右上三角ボタンからTweetの埋め込みで以下のようなリンクを取得。
+<blockquote class="twitter-tweet">
+    <p lang="ja" dir="ltr">
+    会話のレベル高すぎて無言のナカジマ</p>&mdash; ナカジマ (@bokunori302) 
+    <a href="https://twitter.com/bokunori302/status/1281609308002639877?ref_src=twsrc%5Etfw">July 10, 2020</a>
+</blockquote> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+一番したのscriptタグ以外(blockquoteタグの間のみ)を記事にコピペ
+
+7. Youtubeの埋め込み
+youtubeのリンクから(https://www.youtube.com/watch?v=BCpumtefko4)
+.../watch?v=　以降が固有のリンクになっているため、そこを取得し、.../embed/以降に貼り付け
+`youtube:https://www.youtube.com/embed/BCpumtefko4`
+
+(https://www.youtube.com/watch?v=謎の数字)を拾い、`youtube:https://www.youtube.com/embed/謎の数字`を記事にコピペ
+
+

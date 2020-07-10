@@ -4,11 +4,12 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Share from "../components/share"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const { siteTitle, siteUrl } = this.props.data.site.siteMetadata
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -36,7 +37,10 @@ class BlogPostTemplate extends React.Component {
               />
             </div>
           )}
-
+          <Share
+            title={post.frontmatter.title}
+            url={`${siteUrl}${this.props.location.pathname}`}
+          />
           <div
             className="post-content-body"
             dangerouslySetInnerHTML={{ __html: post.html }}
