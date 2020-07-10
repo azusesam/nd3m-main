@@ -1,7 +1,7 @@
 ---
 title: BoiledSpaghetoiniTime
 date: ""
-thumbnail: 
+thumbnail: BoiledSpaghetoiniTime.jpg
 description: ND3Mのメンバーが毎週不定期でその週に読んだ本や、活動、興味を持ったことをまとめた記事。
 ---
 
