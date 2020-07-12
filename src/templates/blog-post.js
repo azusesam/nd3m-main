@@ -2,6 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
+import { globalHistory } from "@reach/router"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Share from "../components/share"
@@ -9,7 +11,9 @@ import Share from "../components/share"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const { siteTitle, siteUrl } = this.props.data.site.siteMetadata
+    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl
+    const path = globalHistory.location.pathname
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -37,10 +41,7 @@ class BlogPostTemplate extends React.Component {
               />
             </div>
           )}
-          <Share
-            title={post.frontmatter.title}
-            url={`${siteUrl}${this.props.location.pathname}`}
-          />
+          <Share title={post.frontmatter.title} url={`${siteUrl}${path}`} />
           <div
             className="post-content-body"
             dangerouslySetInnerHTML={{ __html: post.html }}
@@ -66,6 +67,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
