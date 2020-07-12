@@ -47,6 +47,6 @@ youtubeのリンクから(https://www.youtube.com/watch?v=BCpumtefko4)
 .../watch?v=　以降が固有のリンクになっているため、そこを取得し、.../embed/以降に貼り付け
 `youtube:https://www.youtube.com/embed/BCpumtefko4`
 
-(https://www.youtube.com/watch?v=謎の数字)を拾い、`youtube:https://www.youtube.com/embed/謎の数字`を記事にコピペ
+(https://www.youtube.com/watch?v=謎の数字)の謎の数字部分を拾い、`youtube:https://www.youtube.com/embed/謎の数字`を記事にコピペ
 
 
