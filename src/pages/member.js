@@ -83,7 +83,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Nakashima</h3>
+          <h3 id="dynamic-styles">Nakajima</h3>
           <p>
             中島宏徳<br></br>
             三重大学大学院在学中<br></br>
