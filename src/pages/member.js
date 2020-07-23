@@ -73,7 +73,8 @@ const AboutPage = ({ data }, location) => {
             道具を触ることが好き(自転車、3Dプリンタ、パソコン、カメラ、工具、登山用品などなど)。愛猫の名前はまりん。
             <br></br>
             最近は3DプリンタとARにモチベーション有り。  <br></br>
-            Twitter:[AZU(@azusa353)](https://twitter.com/azusa353)
+            Twitter:
+            [AZU(@azusa353)](https://twitter.com/azusa353){:target="_blank"}
           </p>
 
           <figure className="kg-card kg-image-card kg-width-full">
