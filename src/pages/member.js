@@ -75,6 +75,8 @@ const AboutPage = ({ data }, location) => {
             最近は3DプリンタとARにモチベーション有り。  <br></br>
             Twitter:
             [AZU(@azusa353)](https://twitter.com/azusa353){:target="_blank"}
+            <br></br>
+            &lt;a href="“https://twitter.com/azusa353”"&gt;Twitter@azusa353&lt;/a&gt;
           </p>
 
           <figure className="kg-card kg-image-card kg-width-full">
