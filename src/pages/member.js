@@ -72,9 +72,10 @@ const AboutPage = ({ data }, location) => {
             東京都西東京市出身<br></br>
             道具を触ることが好き(自転車、3Dプリンタ、パソコン、カメラ、工具、登山用品などなど)。愛猫の名前はまりん。
             <br></br>
-            最近は3DプリンタとARにモチベーション有り。  <br></br>
-            Twitter:@azusa353
-          
+            最近は3DプリンタとARにモチベーション有り。 <br></br>
+            <a href="https://twitter.com/azusa353" target="_blank">
+              Twitter:@azusa353
+            </a>
           </p>
 
           <figure className="kg-card kg-image-card kg-width-full">
