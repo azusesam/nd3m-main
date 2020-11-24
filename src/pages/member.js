@@ -22,7 +22,7 @@ const AboutPage = ({ data }, location) => {
         <div className="post-content-body">
           {/* <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
               　<p>Nagoya </p>
-              <p>Digital Design Developer</p> 
+              <p>Digital Design Developers</p> 
               <p>Meeting</p>
           </h2> */}
           <figure className="kg-card kg-image-card kg-width-full">
@@ -40,7 +40,9 @@ const AboutPage = ({ data }, location) => {
             専門分野：近代建築史(修士) , 建築計画(学部)<br></br>
             岐阜市出身。趣味はデジタル絵を描くこと、arduinoとesp32を使った電子工作。
             <br></br>
-            twitter : MEDY @408321date{" "}
+            <a href="https://twitter.com/408321date" target="_blank">
+              Twitter:@408321date
+            </a>
           </p>
 
           <figure className="kg-card kg-image-card kg-width-full">
@@ -65,15 +67,17 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Azu</h3>
+          <h3 id="dynamic-styles">AZU</h3>
           <p>
             田住 梓<br></br>
             名古屋工業大学 社会工学科 建築・デザイン分野 3年<br></br>
             東京都西東京市出身<br></br>
             道具を触ることが好き(自転車、3Dプリンタ、パソコン、カメラ、工具、登山用品などなど)。愛猫の名前はまりん。
             <br></br>
-            最近は3DプリンタとARにモチベーション有り。  <br></br>
-            Twitter:[AZU(@azusa353)](https://twitter.com/azusa353)
+            最近は3Dプリントに興味あり。 <br></br>
+            <a href="https://twitter.com/azusa353" target="_blank">
+              Twitter:@azusa353
+            </a>
           </p>
 
           <figure className="kg-card kg-image-card kg-width-full">
@@ -114,6 +118,57 @@ const AboutPage = ({ data }, location) => {
 
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
+              fluid={data.nishimuraAccounting.childImageSharp.fluid}
+              className="kg-image"
+              style={{ margin: "1rem auto" }}
+            />
+            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
+          </figure>
+          <h3 id="dynamic-styles">Nishimu-</h3>
+          <p>
+            西村隆登<br></br>
+            豊橋技術科学大学大学院　在学中<br></br>
+            専門分野:<br></br>
+            広島県呉市出身<br></br>
+            カープファン。趣味はラジオを聞くこと。
+          </p>
+
+          <figure className="kg-card kg-image-card kg-width-full">
+            <Img
+              fluid={data.kawachiAccounting.childImageSharp.fluid}
+              className="kg-image"
+              style={{ margin: "1rem auto" }}
+            />
+            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
+          </figure>
+          <h3 id="dynamic-styles">Shun</h3>
+          <p>
+            河内駿<br></br>
+            愛知工業大学　建築学科３年<br></br>
+            専門分野:建築計画<br></br>
+            愛知県岡崎市出身<br></br>
+            趣味はキャンプと旅行に行くこと。
+          </p>
+
+          <figure className="kg-card kg-image-card kg-width-full">
+            <Img
+              fluid={data.mukuAccounting.childImageSharp.fluid}
+              className="kg-image"
+              style={{ margin: "1rem auto" }}
+            />
+            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
+          </figure>
+          <h3 id="dynamic-styles">Muku</h3>
+          <p>
+            むく<br></br>
+            名古屋大学工学部環境土木・建築学科 建築学コース2年<br></br>
+            建築学と心理学の結びつきに興味を持つ。<br></br>
+            愛知県名古屋市出身<br></br>
+            大学入試の得点は合格点+1点。紅茶を愛するラストティーン(2020年現在)。
+          </p>
+
+          <figure className="kg-card kg-image-card kg-width-full">
+            <Img
               fluid={data.abeAccounting.childImageSharp.fluid}
               className="kg-image"
               style={{ margin: "1rem auto" }}
@@ -127,6 +182,7 @@ const AboutPage = ({ data }, location) => {
             大阪府出身<br></br>
             Podcastや芸人のラジオなどをよく聴きます。あと音楽も好きです
           </p>
+
           {/* <p>
             Both post and page templates are light and minimal, with all the
             focus on the content while the design of the theme gets out of the
@@ -181,6 +237,30 @@ const indexQuery = graphql`
       }
     }
     konoAccounting: file(relativePath: { eq: "member/kono.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluidLimitPresentationSize
+        }
+      }
+    }
+    nishimuraAccounting: file(relativePath: { eq: "member/nishimu.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluidLimitPresentationSize
+        }
+      }
+    }
+    kawachiAccounting: file(relativePath: { eq: "member/kawachi.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluidLimitPresentationSize
+        }
+      }
+    }
+    mukuAccounting: file(relativePath: { eq: "member/muku.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
