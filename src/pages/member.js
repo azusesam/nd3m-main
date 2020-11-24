@@ -22,7 +22,7 @@ const AboutPage = ({ data }, location) => {
         <div className="post-content-body">
           {/* <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
               　<p>Nagoya </p>
-              <p>Digital Design Developer</p> 
+              <p>Digital Design Developers</p> 
               <p>Meeting</p>
           </h2> */}
           <figure className="kg-card kg-image-card kg-width-full">

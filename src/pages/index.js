@@ -20,12 +20,12 @@ const BlogIndex = ({ data }, location) => {
         title="ND3M"
         keywords={[
           `ND3M`,
-          `nagoya digital design developer meeting`,
+          `nagoya digital design developers meeting`,
           `デジタルデザイン`,
           `コンピュテーショナルデザイン`,
           `ファブリケーション`,
         ]}
-        description="ND3M(nagoya digital design developer meeting)は名古屋を拠点に、「建築と異分野の融合」を軸とし、
+        description="ND3M(nagoya digital design developers meeting)は名古屋を拠点に、「建築と異分野の融合」を軸とし、
         中心に過去から未来へ時間軸を横断しながら研究・思考・議論をしていくスペシャリスト集団。デジタルデザインやコンピュテーショナルデザイン・
         ファブリケーションを主に行っている。"
       />
