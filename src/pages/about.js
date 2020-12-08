@@ -18,24 +18,26 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            <p>Nagoya Digital Design Developers Meeting</p>
+            {/* <p>Nagoya Digital Design Developers Meeting</p>
             <p></p>
-            <p></p>
+           <p></p> */}
           </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
-            <Img
-              fluid={data.nd3mAccounting.childImageSharp.fluid}
-              className="kg-image"
-              style={{ margin: "1rem auto" }}
-            />
-            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
-          </figure>
+
           <h3 id="dynamic-styles">
             <p>
               名古屋の建築学生発, <br></br>
               デジタルデザインムーブメントに多様な方面からアプローチするデザイン集団.
             </p>{" "}
           </h3>
+          <figure className="kg-card kg-image-card kg-width-full">
+            <Img
+              fluid={data.nd3maboutAccounting.childImageSharp.fluid}
+              className="kg-image"
+              style={{ margin: "1rem auto" }}
+            />
+            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
+          </figure>
+
           <p>
             デジタルデザイン, コンピュテーショナルデザインに関連して,
             アイデアコンペ, エキシビジョン, 実作,
@@ -66,7 +68,7 @@ const AboutPage = ({ data }, location) => {
             <br></br>
             しかしながら, デジタルデザインだけにこだわるのではなく,
             その時に必要な技術を選び, 活用する.
-            多様なバックグラウンドのメンバーが集まるからこそ提供できる価値である,
+            多様なバックグラウンドのメンバーが集まるからこそ提供できる価値である.
           </p>
 
           <p>
@@ -78,8 +80,8 @@ const AboutPage = ({ data }, location) => {
               </strong>
             </strong>
             <br></br>
-            技術を身につけるだけでなく, 勉強, 議論を重視して活動している.また,
-            外部からもメンバーを募りオープンなリサーチを主宰し,
+            技術を身につけるだけでなく, 勉強,
+            議論を重視して活動している.また,外部からもメンバーを募るオープンなリサーチを主宰し,
             成果を発表することも行っている.
           </p>
 
@@ -89,6 +91,14 @@ const AboutPage = ({ data }, location) => {
             技術だけでなく、その背景や歴史を学ぶことで
             高付加価値なデザインの提供を行う。
           </p>
+          <figure className="kg-card kg-image-card kg-width-full">
+            <Img
+              fluid={data.nd3mAccounting.childImageSharp.fluid}
+              className="kg-image"
+              style={{ margin: "1rem auto" }}
+            />
+            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
+          </figure>
 
           <p>コンタクトは右上から.</p>
           {/* <p>
@@ -120,9 +130,17 @@ const indexQuery = graphql`
         title
       }
     }
-    nd3mAccounting: file(relativePath: { eq: "nd3m.jpg" }) {
+    nd3mAccounting: file(relativePath: { eq: "nd3m.png" }) {
       childImageSharp {
-        fluid(maxWidth: 800, quality: 100) {
+        fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluidLimitPresentationSize
+        }
+      }
+    }
+    nd3maboutAccounting: file(relativePath: { eq: "about.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
