@@ -1,13 +1,13 @@
 ---
-title: LightingCompetition
+title: Melting Lamp - Rakuhyousou
 date: "2020-03-18"
 thumbnail: ./mainperspective.png
-description: 照明のコンペティションへの氷を使った照明の出展。
+description: 不規則で不完全な, 生命を感じる照明の提案
 ---
 
-## 照明コンペ
+## 落氷層 -Rakuhyousou-
 
-照明のコンペティションへの氷を使った照明の出展
+学生照明展 2020 出展作品
 ![mainperspective](mainperspective.png)
 
 落氷層は 4 種類の氷の層が重なってできた 1 つの氷塊である。この氷塊の中には小さな光源が入っており、光源の重さと生じる熱によ
