@@ -37,7 +37,7 @@ const AboutPage = ({ data }, location) => {
             </p>{" "}
           </h3>
           <p>
-            デジタルデザイン・コンピュテーショナルデザインに関連して,
+            デジタルデザイン, コンピュテーショナルデザインに関連して,
             アイデアコンペ, エキシビジョン, 実作,
             実務に渡るまでのプロジェクトや, ワークショップなどに取り組んでいる.
             <br></br> 複数の大学の学生が自主的に集まり,
@@ -48,7 +48,7 @@ const AboutPage = ({ data }, location) => {
             {" "}
             <strong>
               <strong>
-                まだ未踏の地を探検し,新しい価値観と感動を広く発信していく.
+                まだ未踏の地を探検し, 新しい価値観と感動を広く発信していく.
               </strong>
             </strong>
           </p>
@@ -90,7 +90,7 @@ const AboutPage = ({ data }, location) => {
             高付加価値なデザインの提供を行う。
           </p>
 
-          <p>コンタクトはTwitterのDMからお願いいたします.</p>
+          <p>コンタクトは右上から.</p>
           {/* <p>
             Both post and page templates are light and minimal, with all the
             focus on the content while the design of the theme gets out of the
