@@ -384,7 +384,7 @@ body {
 
 .post-feed {
   display: flex;
-  align-items: ;
+  align-items: stretch;
   flex-wrap: wrap;
 }
 
