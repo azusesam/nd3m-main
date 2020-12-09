@@ -408,7 +408,7 @@ body {
 }
 
 .post-card-large {
-  flex: 1 1 100%;
+  flex: 1 1 50%;
 }
 
 .post-card-link {
