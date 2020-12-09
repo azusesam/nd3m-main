@@ -2,16 +2,17 @@
 title: Open Research CNC
 date: "2020-09-16"
 thumbnail: ./orc.png
-description: 極太スパゲッティー「スパゲットーニ」を3Dプリンターで出力したジョイントを使ってタワーを作るワークショップ。
+description: オンラインで参加者を募り,世界のCNC事例を収集・分析・類型化・発表
 ---
 
 ### EnjointingSpaghetoini
 
-2019 年 11 月 24 日
+2020 年 9 月 16 日
 
-極太スパゲッティー「スパゲットーニ」を 3D プリンターで出力したジョイントを使ってタワーを作るワークショップ。
+EMARF 学生アンバサダーに関連して行ったリサーチ企画。
+オンラインで参加者を募り、他のアンバサダーを始め計 1 ０名が集まり、2 つの観点から分析を行った。9/16 に行われたプレゼンテーションでは、VUILD の秋吉氏をお招きし、公開ディスカッションを行った。
 
-<div class="kg-card kg-image-card kg-width-mini">
+<div class="kg-card kg-image-card kg-width-large">
 
 ![joint](./joint.jpg)
 
