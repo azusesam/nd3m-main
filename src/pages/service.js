@@ -25,7 +25,7 @@ const ServicePage = ({ data }, location) => {
               fluid={data.tenkeilogo.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Regular image</figcaption>
+            <figcaption></figcaption>
           </figure>
           <h3 id="heading-level-3">
             世界にたった1つの模型に、世界でたった1つの人物添景を。<br></br>
@@ -55,7 +55,7 @@ const ServicePage = ({ data }, location) => {
                     fluid={data.step1photograph.childImageSharp.fluid}
                     className="kg-image"
                   />
-                  <figcaption>Regular image</figcaption>
+                  <figcaption></figcaption>
                 </figure>
               </p>
             </dd>
@@ -67,7 +67,7 @@ const ServicePage = ({ data }, location) => {
                     fluid={data.step2upload.childImageSharp.fluid}
                     className="kg-image"
                   />
-                  <figcaption>Regular image</figcaption>
+                  <figcaption></figcaption>
                 </figure>
               </p>
             </dd>
@@ -79,7 +79,7 @@ const ServicePage = ({ data }, location) => {
                     fluid={data.step33dmodel.childImageSharp.fluid}
                     className="kg-image"
                   />
-                  <figcaption>Regular image</figcaption>
+                  <figcaption></figcaption>
                 </figure>
               </p>
             </dd>
@@ -92,7 +92,7 @@ const ServicePage = ({ data }, location) => {
                     fluid={data.step4reach.childImageSharp.fluid}
                     className="kg-image"
                   />
-                  <figcaption>Regular image</figcaption>
+                  <figcaption></figcaption>
                 </figure>
               </p>
             </dd>
