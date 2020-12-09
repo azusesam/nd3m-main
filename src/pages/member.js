@@ -26,8 +26,8 @@ const AboutPage = ({ data }, location) => {
               <p>Meeting</p>
           </h2> */}
           <p>
-            愛知県周辺の6大学, M1からB2まで,
-            バリエーション豊かなメンバーが在籍している.
+            愛知県を中心に,
+            様々な専門分野や興味を持つ,バリエーション豊かなメンバーが在籍している.
           </p>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img

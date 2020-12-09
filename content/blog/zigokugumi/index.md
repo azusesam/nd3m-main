@@ -1,7 +1,7 @@
 ---
 title: Zigokugumi
-date: ""
-thumbnail: ./zigokugumi.jpg
+date: "2020-09-19"
+thumbnail: ./zigoku.jpg
 description: 構造設計事務所ディックスのオフィス3階天井に地獄組を取り付けるプロジェクト。
 ---
 
