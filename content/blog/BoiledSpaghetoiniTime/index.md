@@ -1,13 +1,13 @@
 ---
-title: BoiledSpaghetoiniTime
+title: While Boiling Spaghetoini スパゲトーニの茹で時間
 date: ""
-thumbnail: 
-description: ND3Mのメンバーが毎週不定期でその週に読んだ本や、活動、興味を持ったことをまとめた記事。
+thumbnail:
+description: ND3Mのメンバーが毎週不定期でその週に読んだ本や、活動、興味を持ったことをまとめる
 ---
 
-# スパゲットーニの茹で時間
+### About
 
-ND3Mのメンバーが毎週不定期でその週に読んだ本や、活動、興味を持ったことをまとめた記事。
+ND3M のメンバーが不定期でその週に読んだ本や、活動、興味を持ったことをまとめた記事を紹介したり、勉強会を開催したりします。note にまとめていきます。
 
 <a href="https://twitter.com/intent/tweet?button_hashtag=スパゲトーニの茹で時間&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #スパゲトーニの茹で時間</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

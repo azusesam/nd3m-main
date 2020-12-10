@@ -25,6 +25,10 @@ const AboutPage = ({ data }, location) => {
               <p>Digital Design Developers</p> 
               <p>Meeting</p>
           </h2> */}
+          <p>
+            愛知県を中心に,
+            様々な専門分野や興味を持つ,バリエーション豊かなメンバーが在籍している.
+          </p>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
               fluid={data.medyAccounting.childImageSharp.fluid}
@@ -33,7 +37,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Medy</h3>
+          <h4 id="dynamic-styles">Medy</h4>
           <p>
             池本しょうこ<br></br>
             名古屋工業大学大学院在学中<br></br>
@@ -53,7 +57,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Consomme</h3>
+          <h4 id="dynamic-styles">Consomme</h4>
           <p>
             専門分野：建築計画<br></br>
             建築設計を新しい技術で楽にしたり飛躍させたりして生きていきたい
@@ -67,7 +71,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">AZU</h3>
+          <h4 id="dynamic-styles">AZU</h4>
           <p>
             田住 梓<br></br>
             名古屋工業大学 社会工学科 建築・デザイン分野 3年<br></br>
@@ -88,7 +92,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Nakajima</h3>
+          <h4 id="dynamic-styles">Nakajima</h4>
           <p>
             中島宏徳<br></br>
             三重大学大学院在学中<br></br>
@@ -107,7 +111,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Ko-no</h3>
+          <h4 id="dynamic-styles">Ko-no</h4>
           <p>
             河野哲也<br></br>
             中部大学工学部研究科建設専攻　在学中<br></br>
@@ -124,7 +128,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Nishimu-</h3>
+          <h4 id="dynamic-styles">Nishimu-</h4>
           <p>
             西村隆登<br></br>
             豊橋技術科学大学大学院　在学中<br></br>
@@ -141,7 +145,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Shun</h3>
+          <h4 id="dynamic-styles">Shun</h4>
           <p>
             河内駿<br></br>
             愛知工業大学　建築学科３年<br></br>
@@ -158,7 +162,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Muku</h3>
+          <h4 id="dynamic-styles">Muku</h4>
           <p>
             むく<br></br>
             名古屋大学工学部環境土木・建築学科 建築学コース2年<br></br>
@@ -175,7 +179,7 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h3 id="dynamic-styles">Be-ah</h3>
+          <h4 id="dynamic-styles">Be-ah</h4>
           <p>
             阿部宥太郎<br></br>
             専門分野：都市シミュレーション(仮)<br></br>
@@ -214,7 +218,7 @@ const indexQuery = graphql`
     }
     medyAccounting: file(relativePath: { eq: "member/medy.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -222,7 +226,7 @@ const indexQuery = graphql`
     }
     konAccounting: file(relativePath: { eq: "member/kon.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -230,7 +234,7 @@ const indexQuery = graphql`
     }
     nakazimaAccounting: file(relativePath: { eq: "member/nakazima.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -238,7 +242,7 @@ const indexQuery = graphql`
     }
     konoAccounting: file(relativePath: { eq: "member/kono.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -246,7 +250,7 @@ const indexQuery = graphql`
     }
     nishimuraAccounting: file(relativePath: { eq: "member/nishimu.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -254,7 +258,7 @@ const indexQuery = graphql`
     }
     kawachiAccounting: file(relativePath: { eq: "member/kawachi.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -262,7 +266,7 @@ const indexQuery = graphql`
     }
     mukuAccounting: file(relativePath: { eq: "member/muku.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -270,7 +274,7 @@ const indexQuery = graphql`
     }
     azuAccounting: file(relativePath: { eq: "member/azu.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
@@ -278,7 +282,7 @@ const indexQuery = graphql`
     }
     abeAccounting: file(relativePath: { eq: "member/abe.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100, grayscale: true) {
+        fluid(maxWidth: 300, quality: 100, grayscale: true) {
           ...GatsbyImageSharpFluid
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
