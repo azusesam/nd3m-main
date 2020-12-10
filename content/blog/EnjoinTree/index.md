@@ -1,52 +1,49 @@
 ---
 title: EnjoinTree Workshop
-date: "2020-11-14"
+date: "2020-10-14"
 thumbnail: ./enjointop.jpg
-description: 極太スパゲッティー「スパゲットーニ」を3Dプリンターで出力したジョイントを使ってタワーを作るワークショップ。
+description: レーザーカッター体験ワークショップと、その展示台のデザイン
 ---
 
-### EnjointingSpaghetoini
+<br>
 
-2019 年 11 月 24 日
+FabCafe nagoya とのコラボレーションで行ったイベント。
 
-極太スパゲッティー「スパゲットーニ」を 3D プリンターで出力したジョイントを使ってタワーを作るワークショップ。
+レーザーカッターを用いてインスタレーションのパーツを制作する、参加型展示を行い、その展示台も制作した。
 
-<div class="kg-card kg-image-card kg-width-mini">
+<br>
 
-![joint](./joint.jpg)
+#### レーザーカッター体験ワークショップ
 
-</div>
+![workshop](./workshop1.jpg)
 
-<div class="kg-card kg-image-card kg-width-mini">
+![workshop2](./draw.jpg)
 
-![spa](./spagetoini.jpg)
+![workshop3](./cut.jpg)
 
-</div>
+![workshop4](./make1.jpg)
 
-開催当日は、WS の参加学生 15 人と講評に 4 名の建築家や先生、加えて 3 人の見学者で白熱しました。
+#### 展示台制作
 
-<div class="kg-card kg-image-card kg-width-mini">
+![dai1](./parts.png)
 
-![tower1](./tower1.jpg)
+![dai2](./dai2.jpg)
 
-</div>
-<div class="kg-card kg-image-card kg-width-mini">
+![dai3](./dai3.jpg)
 
-![tower2](./tower2.jpg)
+![dai4](./dai4.jpg)
 
-</div>
-<div class="kg-card kg-image-card kg-width-mini">
+#### ワークフロー
 
-![tower3](./tower3.jpg)
+![flow](./flow.png)
 
-</div>
+![banar](./banar.jpg)
 
-WS の後は参加者の自己紹介もかねて自分が今までかかわってきたプロジェクトや論文、設計のプレゼンを行いました
+![show1](./show1.jpg)
+![show2](./show2.jpg)
+![show3](./show3.jpg)
 
-<div class="kg-card kg-image-card kg-width-mini">
+<br>
 
-![presentation](./presentation.jpg)
-
-</div>
-
-`youtube:https://www.youtube.com/embed/BCpumtefko4`
+Date : 2020 年 10 月 14 日  
+Category : Workshop, Installation

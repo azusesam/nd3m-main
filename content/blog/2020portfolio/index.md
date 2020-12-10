@@ -5,9 +5,7 @@ thumbnail: ./hyousi.png
 description: ND3Mの最初の1年をまとめたポートフォリオ
 ---
 
-### EnjointingSpaghetoini
-
-2020 年 11 月 24 日
+<br>
 
 2019 年 11 月 24 日の、Enjointing Spaghetoini で活動を開始した ND3M が１年間で取り組んできたことをまとめたポートフォリオを公開します。
 

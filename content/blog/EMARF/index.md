@@ -5,48 +5,29 @@ thumbnail: ./emarftop.png
 description: VUILD株式会社の提供する, EMARFサービスのアンバサダーとしての制作及び発信
 ---
 
-### EnjointingSpaghetoini
+<br>
 
-2019 年 11 月 24 日
+Shopbpt を用いたクラウドプレカットシステム、[EMARF](https://emarf.co/)の学生アンバサダーとして、3 ヶ月間 EMARF を用いた作品制作などの活動をした。
 
-極太スパゲッティー「スパゲットーニ」を 3D プリンターで出力したジョイントを使ってタワーを作るワークショップ。
+10 月 27 日に成果報告会が行われた。
 
-<div class="kg-card kg-image-card kg-width-mini">
+`youtube:https://www.youtube.com/embed/8yJ9ka1gdxE`
 
-![joint](./joint.jpg)
+[地獄組取り付けプロジェクト](/zigokugumi)
 
-</div>
+![zigokugumi](./zigoku.jpg)
 
-<div class="kg-card kg-image-card kg-width-mini">
+[λ rack](/rambdarack)
 
-![spa](./spagetoini.jpg)
+![rambda](./rambda.jpg)
 
-</div>
+[EnjoinTree workshop](/EnjoinTree)
 
-開催当日は、WS の参加学生 15 人と講評に 4 名の建築家や先生、加えて 3 人の見学者で白熱しました。
+![enjointree](./enjointree.jpg)
 
-<div class="kg-card kg-image-card kg-width-mini">
+[Open Research CNC](/EnjoinTree)
 
-![tower1](./tower1.jpg)
+![orc](./orc.png)
 
-</div>
-<div class="kg-card kg-image-card kg-width-mini">
-
-![tower2](./tower2.jpg)
-
-</div>
-<div class="kg-card kg-image-card kg-width-mini">
-
-![tower3](./tower3.jpg)
-
-</div>
-
-WS の後は参加者の自己紹介もかねて自分が今までかかわってきたプロジェクトや論文、設計のプレゼンを行いました
-
-<div class="kg-card kg-image-card kg-width-mini">
-
-![presentation](./presentation.jpg)
-
-</div>
-
-`youtube:https://www.youtube.com/embed/BCpumtefko4`
+Date : 2020 年 7 月 - 10 月  
+Category :
