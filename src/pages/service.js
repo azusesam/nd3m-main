@@ -61,9 +61,10 @@ const ServicePage = ({ data }, location) => {
           </p>
           <dl>
             <dt>1. 作りたい添景のポーズを決めて360度さまざまな方向から撮影</dt>
+            　お手持ちのスマホなどで撮影するだけ！
             <dd>
               <p>
-                <figure className="kg-card kg-image-card">
+                <figure className="kg-card kg-image-card ">
                   <Img
                     fluid={data.step1photograph.childImageSharp.fluid}
                     className="kg-image"
@@ -72,6 +73,7 @@ const ServicePage = ({ data }, location) => {
               </p>
             </dd>
             <dt>2. データをアップロードし制作を依頼</dt>
+            　サービスチームが頂いた写真から3Dモデルを制作します。
             <dd>
               <p>
                 <figure className="kg-card kg-image-card">
@@ -83,6 +85,7 @@ const ServicePage = ({ data }, location) => {
               </p>
             </dd>
             <dt>3. 3Dになったデータを確認</dt>
+            　思った通りの添景ができあがるか、事前に確認できます。
             <dd>
               <p>
                 <figure className="kg-card kg-image-card">
@@ -93,7 +96,7 @@ const ServicePage = ({ data }, location) => {
                 </figure>
               </p>
             </dd>
-            <dt>4. 自宅に添景が届く</dt>{" "}
+            <dt>4. 自宅に添景が届く</dt> 　あとは待つだけでお届けします！
             <dd>
               <p>
                 <figure className="kg-card kg-image-card">
@@ -106,6 +109,12 @@ const ServicePage = ({ data }, location) => {
             </dd>
           </dl>
           <h3 id="heading-level-3">あなたが表現したいシーンをつくるお手伝い</h3>
+          <figure className="kg-card kg-image-card">
+            <Img
+              fluid={data.printed2.childImageSharp.fluid}
+              className="kg-image"
+            />
+          </figure>
           　　 　　
           <h4 id="ordered">どうやって作ってるの？</h4>
           <ol>
@@ -121,6 +130,12 @@ const ServicePage = ({ data }, location) => {
             <li>出力品を自宅までお届けします。</li>
           </ol>
           　　
+          <figure className="kg-card kg-image-card">
+            <Img
+              fluid={data.printed1.childImageSharp.fluid}
+              className="kg-image"
+            />
+          </figure>
           <h2 id="heading-level-2">2021年1月上旬, β版リリース予定</h2>
           <p>
             β版では、事前に登録いただいた方を中心に、サービスのテストを行います。
@@ -160,31 +175,7 @@ const indexQuery = graphql`
         title
       }
     }
-    smallPic: file(
-      relativePath: { eq: "fabio-comparelli-696506-unsplash.jpg" }
-    ) {
-      childImageSharp {
-        fluid(maxWidth: 1360) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    medPic: file(relativePath: { eq: "sophia-valkova-30139-unsplash.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1360) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    largePic: file(
-      relativePath: { eq: "vladimir-malyutin-98174-unsplash.jpg" }
-    ) {
-      childImageSharp {
-        fluid(maxWidth: 1360) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
+
     tenkeilogo: file(relativePath: { eq: "tenkei/tenkei-logo.png" }) {
       childImageSharp {
         fluid(maxWidth: 1360, quality: 100) {
@@ -192,7 +183,7 @@ const indexQuery = graphql`
         }
       }
     }
-    step1photograph: file(relativePath: { eq: "tenkei/step1-photograph.png" }) {
+    step1photograph: file(relativePath: { eq: "tenkei/takephoto.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
@@ -200,7 +191,7 @@ const indexQuery = graphql`
         }
       }
     }
-    step2upload: file(relativePath: { eq: "tenkei/step2-upload.png" }) {
+    step2upload: file(relativePath: { eq: "tenkei/buildmodel.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
@@ -208,7 +199,7 @@ const indexQuery = graphql`
         }
       }
     }
-    step33dmodel: file(relativePath: { eq: "tenkei/step3-3dmodel.png" }) {
+    step33dmodel: file(relativePath: { eq: "tenkei/checkmodel.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
@@ -216,7 +207,23 @@ const indexQuery = graphql`
         }
       }
     }
-    step4reach: file(relativePath: { eq: "tenkei/step4-reach.png" }) {
+    step4reach: file(relativePath: { eq: "tenkei/hand.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000, quality: 100) {
+          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluidLimitPresentationSize
+        }
+      }
+    }
+    printed1: file(relativePath: { eq: "tenkei/print.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000, quality: 100) {
+          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluidLimitPresentationSize
+        }
+      }
+    }
+    printed2: file(relativePath: { eq: "tenkei/printed2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
