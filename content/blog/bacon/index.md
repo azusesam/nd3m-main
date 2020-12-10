@@ -2,10 +2,8 @@
 title: Make Delicious Bacon
 date: "2020-07-01"
 thumbnail: ./bacon.png
-description: 美味しいベーコンを塊肉から作る
+description: ベーコン戦記 -美味しいベーコンを作る-
 ---
-
-### ベーコン戦記
 
 <div class="sketchfab-embed-wrapper">
     <iframe title="A 3D model" width="640" height="480" src="https://sketchfab.com/models/4b738e8596fe4a31bda33becc7de1f13/embed?autostart=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -31,17 +29,7 @@ description: 美味しいベーコンを塊肉から作る
 <div>
 <iframe class="note-embed" src="https://note.com/embed/notes/ncddc60df8b6c" style="border: 0; display: block; max-width: 600px; width: 60vw; padding: 10px; margin: 30px 0px; position: center; visibility: visible;" height="220"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
 </div>
+<p>　<br></br>　</p>
 
-<div class="kg-card kg-image-card kg-width-mini">
-
-![joint](./joint.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-mini">
-
-![spa](./spagetoini.jpg)
-
-</div>
-
-2019 年 11 月 24 日
+Date : 2019 年 11 月 24 日  
+Category : Research

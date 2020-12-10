@@ -1,7 +1,7 @@
 ---
 title: Melting Lamp - Rakuhyousou
 date: "2020-03-18"
-thumbnail: ./mainperspective.png
+thumbnail: ./main.jpg
 description: 不規則で不完全な, 生命を感じる照明の提案
 ---
 
@@ -17,4 +17,11 @@ description: 不規則で不完全な, 生命を感じる照明の提案
 24 時間 365 日という決められた時間に縛られがちな私たちの生活の中で、あえて「予測ができない」「いつ消えるかわからない」光を
 提案することで、時間に縛られない、変化する、不規則で不完全な照明を提案する。
 
-![sheet](sheet.jpg)
+![blockice](4.jpg)
+![rockice](2.jpg)
+![formkice](3.jpg)
+![saltice](1.jpg)
+![lightimage](light.jpg)
+
+Date : 2020 年 3 月  
+Category : Product
