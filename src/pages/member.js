@@ -165,7 +165,7 @@ const AboutPage = ({ data }, location) => {
           <h4 id="dynamic-styles">muku</h4>
           <p>
             むく<br></br>
-            名古屋大学工学部環境土木・建築学科 建築学コース４年<br></br>
+            名古屋大学工学部環境土木・建築学科 建築学コース３年<br></br>
             愛知県名古屋市出身<br></br>
             機械式時計の中身が大好き<br></br>
             水分補給の8割を紅茶に頼るほどの紅茶好き<br></br>
