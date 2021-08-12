@@ -1,5 +1,5 @@
 ---
-title: Transferring Arimatsu-Shibori
+title: Memory of Shapes
 date: "2021-04"
 thumbnail: ./tumbnail.jpg
 description: 伝統工芸「有松絞り」の凹凸形状を３Dスキャンし、天板に転写したデスク。セブンストーリーズ６階「有松の転写」に設置。
