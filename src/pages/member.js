@@ -22,7 +22,7 @@ const AboutPage = ({ data }, location) => {
         <div className="post-content-body">
           {/* <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
               　<p>Nagoya </p>
-              <p>Digital Design Developers</p> 
+              <p>Digital Design Developers</p>
               <p>Meeting</p>
           </h2> */}
           <p>
@@ -74,7 +74,7 @@ const AboutPage = ({ data }, location) => {
           <h4 id="dynamic-styles">AZU</h4>
           <p>
             田住 梓<br></br>
-            名古屋工業大学 社会工学科 建築・デザイン分野 3年<br></br>
+            名古屋工業大学 社会工学科 建築・デザイン分野４年<br></br>
             東京都西東京市出身<br></br>
             道具を触ることが好き(自転車、3Dプリンタ、パソコン、カメラ、工具、登山用品などなど)。愛猫の名前はまりん。
             <br></br>
@@ -148,7 +148,7 @@ const AboutPage = ({ data }, location) => {
           <h4 id="dynamic-styles">Shun</h4>
           <p>
             河内駿<br></br>
-            愛知工業大学　建築学科３年<br></br>
+            愛知工業大学　建築学科４年<br></br>
             専門分野:建築計画<br></br>
             愛知県岡崎市出身<br></br>
             趣味はキャンプと旅行に行くこと。
@@ -162,13 +162,16 @@ const AboutPage = ({ data }, location) => {
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-          <h4 id="dynamic-styles">Muku</h4>
+          <h4 id="dynamic-styles">muku</h4>
           <p>
             むく<br></br>
-            名古屋大学工学部環境土木・建築学科 建築学コース2年<br></br>
-            建築学と心理学の結びつきに興味を持つ。<br></br>
+            名古屋大学工学部環境土木・建築学科 建築学コース３年<br></br>
             愛知県名古屋市出身<br></br>
-            大学入試の得点は合格点+1点。紅茶を愛するラストティーン(2020年現在)。
+            機械式時計の中身が大好き<br></br>
+            水分補給の8割を紅茶に頼るほどの紅茶好き<br></br>
+            <a href="https://twitter.com/muku_464939" target="_blank">
+              Twitter:@muku_464939
+            </a>
           </p>
 
           <figure className="kg-card kg-image-card kg-width-full">
