@@ -9,13 +9,13 @@ description: 伝統工芸「有松絞り」の凹凸や質感を、木材に転�
 
 Wood Change Award 2020 応募作品
 
-`youtube:https://www.youtube.com/watch?v=Htnym26a8rI`
+`youtube:https://www.youtube.com/embed/Htnym26a8rI`
 
 名古屋の伝統工芸「有松絞り」の模様は、布を紐でくくる作業から生まれる。同時に、くくりの作業によって布に生じるしわは、有松絞りの大きな特徴である。このしわを形状記憶させることで、染の柄だけでなく形で有松絞りの新しい可能性を示すアパレルブランド「[cucuri](https://www.cucuri-shibori.com)」が生産している布を３Dスキャンした。スキャンされた３Dデータの、凹凸の高さに応じたデータからグラデーションを作り、レーザー彫刻により別の素材に転写することで素材を生まれ変わらせる試み。
 
 多方向からの撮影により、布を３Dスキャンする
 
-![material1](./material1.jpg)
+![material1](./material1.JPG)
 
 ![material2](./material2.jpg)
 
