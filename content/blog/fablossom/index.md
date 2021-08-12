@@ -16,7 +16,7 @@ description: 布と３Dプリントを組み合わせた構法による、桜モ
 
 ![origami](./origami.jpg)
 
-`youtube: https://youtu.be/fhr-PIwdj8M `
+`youtube:https://www.youtube.com/embed/fhr-PIwdj8M`
 
 桜の花びらをかたどったパーツが組み合わさり、パビリオンの影が木陰を連想させる。
 
@@ -24,27 +24,27 @@ description: 布と３Dプリントを組み合わせた構法による、桜モ
 
 重心の高さや全体のひろがりを目的関数とした遺伝的アルゴリズムから、最適な形態を抽出。これにより、軽量なパビリオンでありながら風に飛ばされることのない形を実現した。
 
-![wallacei](./wallacei.jpg)
+![wallacei](./wallacei.JPG)
 
 最適化した形態で実際に設置した様子
 
-![optimized](./optimized.jpg)
+![optimized](./optimized.JPG)
 
 一方で、折り曲げ構造による高い施工性から、分解・組み立てが簡単になったため、毎日形を変えて展示を行った。
 
-![change1](./change1.jpg)
+![change1](./change1.png)
 
-![change2](./change2.jpg)
+![change2](./change2.png)
 
-![change3](./change3.jpg)
+![change3](./change3.png)
 
-![change4](./change4.jpg)
+![change4](./change4.png)
 
-![change5](./change5.jpg)
+![change5](./change5.png)
 
-![change7](./change7.jpg)
+![change7](./change7.png)
 
-![change9](./change9.jpg)
+![change9](./change9.png)
 
 ###スタディの様子
 
