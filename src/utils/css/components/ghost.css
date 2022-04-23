@@ -2,7 +2,7 @@
 /* ---------------------------------------------------------- */
 
 .kg-card {
-  margin: 7vw 0;
+  margin: 5vw 0;
 }
 
 .kg-embed-card {
@@ -17,6 +17,14 @@
   width: 100%;
 }
 
+.kg-image-left {
+  position: relative;
+  width: 30vw;
+  min-width: 40%;
+  margin-left: 1rem;
+ 
+}
+
 .kg-card figcaption {
   padding: 1.5rem;
   font-size: 1.3rem;
@@ -25,15 +33,6 @@
   color: var(--color-base);
   text-align: center;
   opacity: 0.4;
-}
-
-.kg-width-wide {
-  position: relative;
-  width: 75vw;
-  min-width: 100%;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  transform: translateX(calc(50vw - 50%));
 }
 
 .kg-width-mini {
