@@ -37,4 +37,4 @@ Wood Change Award 2020 応募作品
 
 ![acrylic](./acrylic.jpeg)
 
-Date : 2021 年 2 月 15 日
+Date : 2021.02.15

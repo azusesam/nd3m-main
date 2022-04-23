@@ -25,8 +25,8 @@ const AboutPage = ({ data }, location) => {
 
           <h3 id="dynamic-styles">
             <p>
-              名古屋の建築学生発, <br></br>
-              デジタルデザインムーブメントに多様な方面からアプローチするデザイン集団.
+              コンピュテーショナルデザインを基盤に <br></br>
+              研究・制作活動を行うクリエイティブチーム
             </p>{" "}
           </h3>
           <figure className="kg-card kg-image-card kg-width-full">
@@ -39,20 +39,18 @@ const AboutPage = ({ data }, location) => {
           </figure>
 
           <p>
-            デジタルデザイン, コンピュテーショナルデザインに関連して,
-            アイデアコンペ, エキシビジョン, 実作,
-            実務に渡るまでのプロジェクトや, ワークショップなどに取り組んでいる.
-            <br></br> 複数の大学の学生が自主的に集まり,
-            大学や研究室の枠にとらわれず,
-            共通項として「新しい建築を提案したい」「面白い！と話題になることを社会に発信したい」という意思を持っている.{" "}
-          </p>
-          <p>
             {" "}
+            建築情報学領域を中心に,
+            制作・研究・勉強会・イベント企画など, 幅広く活動中.  
+            <br></br>
+            大学や企業, 専門分野の枠にとらわれず, コンピュテーショナルデザインを共通項に集まった多様なメンバーで構成されている.
+            <br></br>
             <strong>
               <strong>
                 まだ未踏の地を探検し, 新しい価値観と感動を広く発信していく.
               </strong>
             </strong>
+            <br></br>
           </p>
 
           <h3 id="dynamic-styles">活動における2つの軸+α</h3>
@@ -100,7 +98,38 @@ const AboutPage = ({ data }, location) => {
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
 
-          <p>コンタクトは右上から.</p>
+          <p>
+            <h4>沿革</h4>
+            <table>
+              <tbody>
+                <tr>
+                  <td>2019.11</td>
+                  <td>ND3Mの名前を初めて用いたイベント "Enjointing Spagetoini" 開催
+                  </td>
+                </tr>
+                <tr>
+                  <td>2020.03</td>
+                  <td>愛知県の建築学生によるチームとして本格的に活動を開始</td>
+                </tr>
+                <tr>
+                  <td>2021.12</td>
+                  <td>第3期始動, 名古屋以外のメンバーも迎え新体制へ</td>
+                </tr>
+                <tr>
+                  <td>2022.04</td>
+                  <td>社会人のメンバーが誕生し, 新たなステップへ</td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+            
+
+          <p>
+          <h4>お問い合わせ</h4>
+            コンタクトは右上のSNS等からお待ちしております.
+          <br></br>
+          プロジェクトのお誘いやご相談, チームへの参加希望など, お気軽にご連絡ください. 
+          </p>
           {/* <p>
             Both post and page templates are light and minimal, with all the
             focus on the content while the design of the theme gets out of the
@@ -130,7 +159,7 @@ const indexQuery = graphql`
         title
       }
     }
-    nd3mAccounting: file(relativePath: { eq: "nd3m.png" }) {
+    nd3mAccounting: file(relativePath: { eq: "aboutpage_logo.png" }) {
       childImageSharp {
         fluid(maxWidth: 400, quality: 100) {
           ...GatsbyImageSharpFluid

@@ -14,7 +14,7 @@ const ServicePage = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
+        title="10kei オリジナルの人物添景を簡単に。"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
 

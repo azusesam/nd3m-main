@@ -31,5 +31,5 @@ description: ベーコン戦記 -美味しいベーコンを作る-
 </div>
 <p>　<br></br>　</p>
 
-Date : 2020 年 7 月  
+Date : 2020.07
 Category : Research
