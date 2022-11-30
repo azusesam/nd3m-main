@@ -27,22 +27,26 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Works</Link>
+                <Link to={`/`}>Projects</Link>
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
               <li className="nav-member" role="menuitem">
-                <Link to={`/member`}>Member</Link>
+                <Link to={`/team`}>Team</Link>
               </li>
-              <li className="nav-member" role="menuitem">
-                <Link to={`/service`}>Service</Link>
+              {/* <li className="nav-10kei" role="menuitem">
+                <Link to={`/10kei`}>10kei</Link>
+              </li>*/}
+              <li className="nav-news" role="menuitem">
+                <Link to={`https://nd3m.notion.site/NEWS-1351c6de6e3940f9b10a766aecc994d4`}>News</Link>
               </li>
-              {/* <li className="nav-elements" role="menuitem">
+              { <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
-              </li> */}
+              </li> }
             </ul>
           </nav>
+          
           <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
               {title}
@@ -50,14 +54,6 @@ const Layout = props => {
           </div>
           <div className="site-head-right">
             <div className="social-links">
-              <a
-                href="https://www.facebook.com/ND3M-110776634033366/"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
               <a
                 href="https://twitter.com/nagoya_d3m"
                 title="Twitter"
@@ -73,6 +69,14 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 Instagram
+              </a>
+              <a
+                href="https://www.facebook.com/ND3M-110776634033366/"
+                title="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
               </a>
               {/* <Link
                 to={`/rss.xml`}
@@ -91,6 +95,7 @@ const Layout = props => {
           {children}
         </div>
       </main>
+      
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
         Built with{" "}

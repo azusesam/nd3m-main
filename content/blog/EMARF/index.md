@@ -2,16 +2,18 @@
 title: EMARF Ambassador
 date: "2020-10-27"
 thumbnail: ./emarftop.png
-description: VUILD株式会社の提供する, EMARFサービスのアンバサダーとしての制作及び発信
+description: VUILD株式会社の提供する, EMARFサービスののアンバサダーとして制作及び発信
 ---
 
 <br>
 
-Shopbpt を用いたクラウドプレカットシステム、[EMARF](https://emarf.co/)の学生アンバサダーとして、3 ヶ月間 EMARF を用いた作品制作などの活動をした。
+Shopbptを用いたクラウド加工システム，[EMARF](https://emarf.co/)の学生アンバサダーとして，3ヶ月間EMARFを用いた作品制作などの活動を行いました．
 
-10 月 27 日に成果報告会が行われた。
+10月27日に成果報告会が行われました．
 
 `youtube:https://www.youtube.com/embed/8yJ9ka1gdxE`
+
+以下に，実施した４つのプロジェクトへのリンクを掲載しています．
 
 [地獄組取り付けプロジェクト](/zigokugumi)
 
@@ -29,5 +31,5 @@ Shopbpt を用いたクラウドプレカットシステム、[EMARF](https://em
 
 ![orc](./orc.png)
 
-Date : 2020 年 7 月 - 10 月  
-Category :
+Date : 2020.07 - 2020.10<br>
+Category : DigitalFabrication
