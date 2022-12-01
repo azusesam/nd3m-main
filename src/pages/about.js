@@ -23,75 +23,134 @@ const AboutPage = ({ data }, location) => {
            <p></p> */}
           </h2>
 
-          <h3 id="dynamic-styles">
+          <h2 id="dynamic-styles">
             <p>
+            {" "}
               コンピュテーショナルデザインを基盤に <br></br>
-              研究・制作活動を行うクリエイティブチーム
-            </p>{" "}
-          </h3>
+              新たな建築を模索するギルド的集団です
+            </p>
+          </h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
-              fluid={data.nd3maboutAccounting.childImageSharp.fluid}
+              fluid={data.nd3maboutPic.childImageSharp.fluid}
               className="kg-image"
               style={{ margin: "1rem auto" }}
             />
-            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
 
           <p>
             {" "}
-            建築情報学領域を中心に,
-            制作・研究・勉強会・イベント企画など, 幅広く活動中.  
+            建築情報学領域を中心に，デザイン・制作・研究・勉強会・イベント企画など幅広く活動をしています．<br></br>
+            大学，企業，専門分野の枠にとらわれず，コンピュテーショナルデザインを共通項に集まった多様なメンバーでチームを組んでいます．
             <br></br>
-            大学や企業, 専門分野の枠にとらわれず, コンピュテーショナルデザインを共通項に集まった多様なメンバーで構成されている.
             <br></br>
             <strong>
-              <strong>
-                まだ未踏の地を探検し, 新しい価値観と感動を広く発信していく.
-              </strong>
+            "まだ未踏の地を探検し, 新しい価値観と感動を広く発信していく."
             </strong>
             <br></br>
+            をスローガンに，建築の新たなかたち・新たなしくみ・新たなつくりかた，を模索し実践していきます．<br></br>
           </p>
+          <br></br>
 
-          <h3 id="dynamic-styles">活動における2つの軸+α</h3>
-
+          <h3 id="dynamic-styles">コンピュテーショナルデザインの可能性</h3>
+           我々はおもに3つの可能性に対してアプローチしています．<br></br>
+           <br></br>
           <p>
             {" "}
             <strong>
-              <strong>
-                ■
-                D(Design/Develop)：「コンピューターを積極的に使い」制作をしている
-              </strong>
+            ■デザインプロセスの改変
             </strong>
             <br></br>
-            しかしながら, デジタルデザインだけにこだわるのではなく,
-            その時に必要な技術を選び, 活用する.
-            多様なバックグラウンドのメンバーが集まるからこそ提供できる価値である.
-          </p>
-
-          <p>
-            {" "}
+            CADに代表されるデジタル技術の導入により，建築のつくりかたは大きく変化しました．しかし，単にこれまで人の手で行っていたプロセスを効率化するだけでなく，アルゴリズミックな形態生成，センシングの反映など，デザインプロセスそのものを変える可能性を持っています．<br></br>
+            <br></br>
             <strong>
-              <strong>
-                ■
-                M(Meeting)：ND3M自体がゼミのような形で思考・議論をする機会を設ける
-              </strong>
+            ■コンストラクションプロセスの改変
             </strong>
             <br></br>
-            技術を身につけるだけでなく, 勉強,
-            議論を重視して活動している.また,外部からもメンバーを募るオープンなリサーチを主宰し,
-            成果を発表することも行っている.
+            3DプリンティングやMR技術．センシングなどの建築をつくることに関わる技術は，効率化や安全性の向上などをもたらします．これまでデザインできても実現できなかったかたちをつくれるようになり，さらにはデジタル技術ならではの特徴を生かした新たなデザインや，デザインプロセスとインタラクティブに作用するつくりかたが生まれます．<br></br>
+            <br></br>
+            <strong>
+            ■プロセスの融合
+            </strong>
+            <br></br>
+           計画→設計→施工→マネジメントと，これまで一方通行で分断されていた建築のプロセスは，デジタル技術の導入により統合され，ひとつになっていきます．モノの情報はデータとしてコンピュータを介してやりとりされ，リアルタイムに処理し，反応することができるようになります．キネティックなしくみだったり，つくる様子をデザインにフィードバックしてかたちが変わったり，プロセスの融合により建築のありかたも変わっていきます．
           </p>
+          <br></br>
 
-          <p>
-            主な領域は, パラメトリックデザイン, デジタルファブリケーション,
-            フィジカルコンピューティングなど.　
-            技術だけでなく、その背景や歴史を学ぶことで
-            高付加価値なデザインの提供を行う。
-          </p>
-          <figure className="kg-card kg-image-card kg-width-full">
+          <h3>業務内容</h3>
+          ND3Mは自主企画だけでなく，任意団体として請負業務を行っております．
+          プロジェクトすべてへから，一部分のサポート・支援なども承ります．下記の内容は一例です，まずはご相談ください．
+          <ul>
+            <li><strong>コンピュテーショナルデザインを活用した空間設計</strong><br></br>
+            内装やパブリックスペース，家具など，デジタル技術を積極的に取り入れ，新しい価値観に基づく空間を設計します．<br></br>
+            <a
+                href="/fablossom"
+                title="fabrossom"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              参考事例1
+              </a>　
+              <a
+                href="/suyarigasumi"
+                title="suyarigasumi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              参考事例2
+              </a>
+            </li>
+            <li><strong>技術支援</strong><br></br>
+            3Dスキャンやモデリング，フィジカルコンピューティング，デジタルファブリケーションなど，豊富な知見を生かした技術支援により，プロジェクトの実現をサポートします．<br></br>
+              <a
+                href="/rambdarack"
+                title="rambdarack"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              参考事例1
+              </a>　
+              <a
+                href="/AnotherWorld"
+                title="kikuimushi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              参考事例2
+              </a>
+            </li>
+            <li><strong>3Dスキャン・3Dプリント</strong><br></br>
+            模型や部品などの制作も承ります．<br></br>
+              <a
+                href="/10kei"
+                title="10kei"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              参考事例
+              </a>
+            </li>
+            <li><strong>データ作成・支援</strong><br></br>
+            3Dプリント・レーザー加工・NC加工など，デジタルファブリケーションのためのデータを作成，またはその支援を幅広い知見をもとに行います．<br></br>
+            </li>
+            <li><strong>ワークショップ・イベント企画</strong><br></br>
+            デジタル技術に触れるワークショップなどの企画を行います<br></br>
+              <a
+                href="/EnjoinTree"
+                title="enjointree"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              参考事例
+              </a>
+            </li>
+          </ul>
+
+
+        
+          <figure className="kg-card kg-image-card ">
             <Img
-              fluid={data.nd3mAccounting.childImageSharp.fluid}
+              fluid={data.nd3mlogoPic.childImageSharp.fluid}
               className="kg-image"
               style={{ margin: "1rem auto" }}
             />
@@ -104,7 +163,7 @@ const AboutPage = ({ data }, location) => {
               <tbody>
                 <tr>
                   <td>2019.11</td>
-                  <td>ND3Mの名前を初めて用いたイベント "Enjointing Spagetoini" 開催
+                  <td>ND3M結成， "Enjointing Spagetoini" 開催
                   </td>
                 </tr>
                 <tr>
@@ -113,11 +172,15 @@ const AboutPage = ({ data }, location) => {
                 </tr>
                 <tr>
                   <td>2021.12</td>
-                  <td>第3期始動, 名古屋以外のメンバーも迎え新体制へ</td>
+                  <td>第3期始動, 関東・関西のメンバーも迎え新体制へ</td>
                 </tr>
                 <tr>
                   <td>2022.04</td>
                   <td>社会人のメンバーが誕生し, 新たなステップへ</td>
+                </tr>
+                <tr>
+                  <td>2022.11</td>
+                  <td>４期目がスタート</td>
                 </tr>
               </tbody>
             </table>
@@ -159,7 +222,7 @@ const indexQuery = graphql`
         title
       }
     }
-    nd3mAccounting: file(relativePath: { eq: "aboutpage_logo.png" }) {
+    nd3mlogoPic: file(relativePath: { eq: "aboutpage_logo.png" }) {
       childImageSharp {
         fluid(maxWidth: 400, quality: 100) {
           ...GatsbyImageSharpFluid
@@ -167,7 +230,7 @@ const indexQuery = graphql`
         }
       }
     }
-    nd3maboutAccounting: file(relativePath: { eq: "about.jpg" }) {
+    nd3maboutPic: file(relativePath: { eq: "about.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
