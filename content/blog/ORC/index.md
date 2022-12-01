@@ -7,8 +7,8 @@ description: オンラインで参加者を募り,世界のCNC事例を収集・
 
 <br>
 
-EMARF 学生アンバサダーに関連して行ったリサーチ企画。  
-オンラインで参加者を募り、他のアンバサダーを始め計 1 ０名が集まり、2 つの観点から分析を行った。9/16 に行われたプレゼンテーションでは、VUILD の秋吉氏をお招きし、公開ディスカッションを行った。
+EMARF 学生アンバサダーに関連して行ったリサーチ企画，  
+オンラインで参加者を募り，他のアンバサダーを始め計 1 ０名が集まり，2 つの観点から分析を実施しました．9/16 に行われたプレゼンテーションでは，VUILD の秋吉氏をお招きし，公開ディスカッションの形で発表しました．
 
 <br>
 
@@ -20,15 +20,15 @@ EMARF 学生アンバサダーに関連して行ったリサーチ企画。
 第５回　 9/ 2 　全体像の把握と解釈を考える  
 最終回　 9/16 　成果報告会
 
-<div class="kg-card kg-image-card kg-width-large">
+
 
 ![banar](./orckokuchi.png)
 
-</div>
+
 
 [リサーチ閲覧はこちら(google drive)](https://drive.google.com/file/d/1upOFu6WNlZ1gEbbcCD2Fb1P210qWN8C2/view?usp=sharing)
 
 <p>　<br></p>
 
-Date : 2020 年 9 月 16 日  
+Date : 2020.09.16<br> 
 Category : Research
