@@ -14,8 +14,10 @@ description: ベーコン戦記 -美味しいベーコンを作る-
     </p>
 </div>
 
-普段何気なく口にしているベーコンを、イチから作る。
-最後はフォトグラメトリで 3D モデルを生成・アーカイブ
+普段何気なく口にしているベーコンを，イチから作る，<br>
+最後はフォトグラメトリで 3D モデルを生成・アーカイブしました．
+
+デジタル技術の利用を模索する活動です．
 
 <div>
 <iframe class="note-embed" src="https://note.com/embed/notes/nf9bb828698cf" style="border: 0; display: block; max-width: 600px; width: 60vw; padding: 10px; margin: 30px 0px; position: center; visibility: visible;" height="220"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>

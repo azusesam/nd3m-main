@@ -17,24 +17,22 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="ND3M"
+        title="ND3M / エヌ ディー スリー エム　| コンピュテーショナルデザインを専門とする建築集団"
         keywords={[
           `ND3M`,
-          `nagoya digital design developers meeting`,
+          `nagoya digital design developers meing`,
           `デジタルデザイン`,
           `コンピュテーショナルデザイン`,
-          `ファブリケーション`,
+          `デジタルファブリケーション`,
         ]}
-        description="ND3Mは名古屋を拠点に、「建築と異分野の融合」を軸とし、
-        中心に過去から未来へ時間軸を横断しながら研究・思考・議論をしていくスペシャリスト集団。デジタルデザインやコンピュテーショナルデザイン・
-        ファブリケーションを主に行っている。"
+        description="ND3Mは，コンピュテーショナルデザイン，デジタルファブリケーションを中心に，建築を専門に研究・プロジェクトを実施するギルド集団です．"
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
         <header className="page-head">
-          <h2 className="page-head-title">
-            様々なプロジェクトを通して、社会への実装を目指す
-          </h2>
+          <h3 className="page-head-title">
+          Projects by ND3M<br></br>
+          </h3>
         </header>
       )}
       <div className="post-feed">
