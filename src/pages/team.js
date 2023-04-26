@@ -63,7 +63,7 @@ const AboutPage = ({ data }, location) => {
             2022.03　名古屋工業大学 卒業(学士/工学)<br></br>
             2022.04　名古屋工業大学大学院　工学研究科社会工学系プログラム在籍中<br></br>
             <br></br>
-            3Dプリンタを中心に，デジタルファブリケーションによる新しい表現やしくみを模索中です， <br></br>
+            3Dプリンタを中心に，デジタルファブリケーションによる新しい表現やしくみを模索中です. <br></br>
             ND3Mでは実装/施工を中心に活動中，
             <br></br>
             <a href="https://twitter.com/azusa353" rel="noreferrer" target="_blank">
@@ -96,7 +96,7 @@ const AboutPage = ({ data }, location) => {
             2022.04　ゼネコン建築設計職<br></br>
             2022.09　Kyoto Creative Assemblage 1期生<br></br>
             <br></br>
-            実務設計とアカデミックを横断しながら新しい価値を実装・実現していきます，建築とアイドルと演劇に命をかけてます，
+            実務設計とアカデミックを横断しながら新しい価値を実装・実現していきます，建築とアイドルと演劇に命をかけてます.
             <br></br>
             <a href="https://twitter.com/408321date" rel="noreferrer" target="_blank">
               Twitter:@408321date
@@ -126,7 +126,7 @@ const AboutPage = ({ data }, location) => {
             2022.04　建築系エンジニアとして会社勤務<br></br>
             <br></br>
             xRを深めたい<br></br>
-            建築設計を新しい技術で楽にしたり飛躍させたりして生きていきたい
+            建築設計を新しい技術で楽にしたり飛躍させたりして生きていきたい.
             <br></br>
             <br></br>
           </p>
@@ -144,42 +144,20 @@ const AboutPage = ({ data }, location) => {
           <p>
             <strong>Tetsuya KONO</strong>
             <br></br>
+            二級建築士
+            <br></br>
+            <br></br>
             意匠設計・構造設計・生物模倣・造形創成・コンピューテーショナルデザイン
             <br></br>
+
             <br></br>
             1997.08　愛知県安城市出身<br></br>
             2020.03　中部大学(学士/工学)<br></br>
             2022.03　中部大学大学院(修士/建設工学)<br></br>
             2022.04　リズムデザイン構造計画事務所(構造アトリエ事務所)勤務<br></br>
             <br></br>
-            ND3M-Structural Designのチームリーダーとして
             構造計画をメインとしたプロジェクトを行っております，<br></br>
-            新しい構造形態を追求し，皆様の生活に，より良い生活空間を提供致します，
-            <br></br>
-            <br></br>
-          </p>
-
-
-          <figure className="kg-card kg-image-card kg-image-left">
-            <Img
-              fluid={data.seiProfile.childImageSharp.fluid}
-              className="kg-image"
-              style={{ margin: "0" }}
-            />
-            {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
-          </figure>
-          <h4 id="dynamic-styles">近藤誠之介</h4>
-          <p>
-            <strong>Seinosuke KONDO</strong>
-            <br></br>
-            建築計画 意匠設計
-            <br></br>
-            <br></br>
-            1999.10　京都府出身<br></br>
-            2022.04　京都工芸繊維大学 デザイン・建築学課程 在学中<br></br>
-            <br></br>
-            音・光・風や人流などのパラメータをセンシング・解析することで，変化する建築の形を実現する，<br></br>
-            ポストモダン的な建築アナロジーを，パラメトリック・デザインによって実空間としての実現する方法を思考する， 
+            新しい構造形態を追求し，皆様の生活により良い生活空間を提供致します.
             <br></br>
             <br></br>
           </p>
@@ -202,10 +180,11 @@ const AboutPage = ({ data }, location) => {
             <br></br>
             2000.8　愛知県名古屋市出身<br></br>
             2021.3　豊田工業高等専門学校　建築学科　卒業<br></br>
-            2021.4　豊橋技術科学大学　建築・都市システム学課程　在学中<br></br>
+            2023.3　豊橋技術科学大学　建築・都市システム学課程　卒業<br></br>
+            2023.4　豊橋技術科学大学大学院　建築・都市システム学専攻<br></br>
             <br></br>
             粘土3Dプリンターや大口径ノズルFDM3Dプリンターを用い，建築への3Dプリンターの導入，
-            3Dプリント建築のデザイン手法を模索しています，現在は土壁を3Dプリントしています，
+            3Dプリント建築のデザイン手法を模索しています，現在は土壁を3Dプリントしています.
             <br></br>
             <a href="https://twitter.com/645pro_repo" rel="noreferrer" target="_blank">
               Twitter:@645pro_repo
@@ -230,9 +209,10 @@ const AboutPage = ({ data }, location) => {
             <br></br>
             <br></br>
             2000.05　京都府出身<br></br>
-            2022.04　京都工芸繊維大学 デザイン・建築学課程 在学中<br></br>
+            2023.3　京都工芸繊維大学 デザイン・建築学課程 卒業<br></br>
+            2023.4　東京大学大学院工学系研究科　建築専攻　在学中<br></br>
             <br></br>
-            フィジカルとバーチャルを横断しながら目に見えない都市の価値を発見し，人々の暮らしに還元する手法を模索しています，
+            フィジカルとバーチャルを横断しながら目に見えない都市の価値を発見し，人々の暮らしに還元する手法を模索しています.
             <br></br>
             <br></br>
           </p>
