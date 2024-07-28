@@ -68,7 +68,7 @@ const indexQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            // date(formatString: "MMMM DD, YYYY")
             title
             description
             thumbnail {
