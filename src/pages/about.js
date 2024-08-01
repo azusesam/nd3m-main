@@ -1,19 +1,19 @@
-import React from "react"
-import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 
-import "../utils/normalize.css"
-import "../utils/css/screen.css"
+import "../utils/normalize.css";
+import "../utils/css/screen.css";
 
 const AboutPage = ({ data }, location) => {
-  const siteTitle = data.site.siteMetadata.title
+  const siteTitle = data.site.siteMetadata.title;
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <Seo title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
@@ -22,149 +22,153 @@ const AboutPage = ({ data }, location) => {
             <p></p>
            <p></p> */}
           </h2>
-
           <h2 id="dynamic-styles">
             <p>
-            {" "}
+              {" "}
               コンピュテーショナルデザインを基盤に <br></br>
               新たな建築を模索するギルド的集団です
             </p>
           </h2>
           <figure className="kg-card kg-image-card kg-width-full">
-            <Img
-              fluid={data.nd3maboutPic.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.nd3maboutPic.childImageSharp.gatsbyImageData}
               className="kg-image"
-              style={{ margin: "1rem auto" }}
+              style={{ margin: "1rem auto", maxWidth: "1000px" }}
             />
           </figure>
-
           <p>
             {" "}
-            建築情報学領域を中心に，デザイン・制作・研究・勉強会・イベント企画など幅広く活動をしています．<br></br>
+            建築情報学領域を中心に，デザイン・制作・研究・勉強会・イベント企画など幅広く活動をしています．
+            <br></br>
             大学，企業，専門分野の枠にとらわれず，コンピュテーショナルデザインを共通項に集まった多様なメンバーでチームを組んでいます．
             <br></br>
             <br></br>
             <strong>
-            "まだ未踏の地を探検し, 新しい価値観と感動を広く発信していく."
+              "まだ未踏の地を探検し, 新しい価値観と感動を広く発信していく."
             </strong>
             <br></br>
-            をスローガンに，建築の新たなかたち・新たなしくみ・新たなつくりかた，を模索し実践していきます．<br></br>
+            をスローガンに，建築の新たなかたち・新たなしくみ・新たなつくりかた，を模索し実践していきます．
+            <br></br>
           </p>
           <br></br>
-
           <h3 id="dynamic-styles">コンピュテーショナルデザインの可能性</h3>
-           我々はおもに3つの可能性に対してアプローチしています．<br></br>
-           <br></br>
+          我々はおもに3つの可能性に対してアプローチしています．<br></br>
+          <br></br>
           <p>
             {" "}
-            <strong>
-            ■デザインプロセスの改変
-            </strong>
+            <strong>■デザインプロセスの改変</strong>
             <br></br>
-            CADに代表されるデジタル技術の導入により，建築のつくりかたは大きく変化しました．しかし，単にこれまで人の手で行っていたプロセスを効率化するだけでなく，アルゴリズミックな形態生成，センシングの反映など，デザインプロセスそのものを変える可能性を持っています．<br></br>
+            CADに代表されるデジタル技術の導入により，建築のつくりかたは大きく変化しました．しかし，単にこれまで人の手で行っていたプロセスを効率化するだけでなく，アルゴリズミックな形態生成，センシングの反映など，デザインプロセスそのものを変える可能性を持っています．
             <br></br>
-            <strong>
-            ■コンストラクションプロセスの改変
-            </strong>
             <br></br>
-            3DプリンティングやMR技術．センシングなどの建築をつくることに関わる技術は，効率化や安全性の向上などをもたらします．これまでデザインできても実現できなかったかたちをつくれるようになり，さらにはデジタル技術ならではの特徴を生かした新たなデザインや，デザインプロセスとインタラクティブに作用するつくりかたが生まれます．<br></br>
+            <strong>■コンストラクションプロセスの改変</strong>
             <br></br>
-            <strong>
-            ■プロセスの融合
-            </strong>
+            3DプリンティングやMR技術．センシングなどの建築をつくることに関わる技術は，効率化や安全性の向上などをもたらします．これまでデザインできても実現できなかったかたちをつくれるようになり，さらにはデジタル技術ならではの特徴を生かした新たなデザインや，デザインプロセスとインタラクティブに作用するつくりかたが生まれます．
             <br></br>
-           計画→設計→施工→マネジメントと，これまで一方通行で分断されていた建築のプロセスは，デジタル技術の導入により統合され，ひとつになっていきます．モノの情報はデータとしてコンピュータを介してやりとりされ，リアルタイムに処理し，反応することができるようになります．キネティックなしくみだったり，つくる様子をデザインにフィードバックしてかたちが変わったり，プロセスの融合により建築のありかたも変わっていきます．
+            <br></br>
+            <strong>■プロセスの融合</strong>
+            <br></br>
+            計画→設計→施工→マネジメントと，これまで一方通行で分断されていた建築のプロセスは，デジタル技術の導入により統合され，ひとつになっていきます．モノの情報はデータとしてコンピュータを介してやりとりされ，リアルタイムに処理し，反応することができるようになります．キネティックなしくみだったり，つくる様子をデザインにフィードバックしてかたちが変わったり，プロセスの融合により建築のありかたも変わっていきます．
           </p>
           <br></br>
-
           <h3>業務内容</h3>
           ND3Mは自主企画だけでなく，任意団体として請負業務を行っております．
           プロジェクトすべてへから，一部分のサポート・支援なども承ります．下記の内容は一例です，まずはご相談ください．
           <ul>
-            <li><strong>コンピュテーショナルデザインを活用した空間設計</strong><br></br>
-            内装やパブリックスペース，家具など，デジタル技術を積極的に取り入れ，新しい価値観に基づく空間を設計します．<br></br>
-            <a
+            <li>
+              <strong>コンピュテーショナルデザインを活用した空間設計</strong>
+              <br></br>
+              内装やパブリックスペース，家具など，デジタル技術を積極的に取り入れ，新しい価値観に基づく空間を設計します．
+              <br></br>
+              <a
                 href="/fablossom"
                 title="fabrossom"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              参考事例1
-              </a>　
+                参考事例1
+              </a>
+              　
               <a
                 href="/suyarigasumi"
                 title="suyarigasumi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              参考事例2
+                参考事例2
               </a>
             </li>
-            <li><strong>技術支援</strong><br></br>
-            3Dスキャンやモデリング，フィジカルコンピューティング，デジタルファブリケーションなど，豊富な知見を生かした技術支援により，プロジェクトの実現をサポートします．<br></br>
+            <li>
+              <strong>技術支援</strong>
+              <br></br>
+              3Dスキャンやモデリング，フィジカルコンピューティング，デジタルファブリケーションなど，豊富な知見を生かした技術支援により，プロジェクトの実現をサポートします．
+              <br></br>
               <a
                 href="/rambdarack"
                 title="rambdarack"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              参考事例1
-              </a>　
+                参考事例1
+              </a>
+              　
               <a
                 href="/AnotherWorld"
                 title="kikuimushi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              参考事例2
+                参考事例2
               </a>
             </li>
-            <li><strong>3Dスキャン・3Dプリント</strong><br></br>
-            模型や部品などの制作も承ります．<br></br>
+            <li>
+              <strong>3Dスキャン・3Dプリント</strong>
+              <br></br>
+              模型や部品などの制作も承ります．<br></br>
               <a
                 href="/10kei"
                 title="10kei"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              参考事例
+                参考事例
               </a>
             </li>
-            <li><strong>データ作成・支援</strong><br></br>
-            3Dプリント・レーザー加工・NC加工など，デジタルファブリケーションのためのデータを作成，またはその支援を幅広い知見をもとに行います．<br></br>
+            <li>
+              <strong>データ作成・支援</strong>
+              <br></br>
+              3Dプリント・レーザー加工・NC加工など，デジタルファブリケーションのためのデータを作成，またはその支援を幅広い知見をもとに行います．
+              <br></br>
             </li>
-            <li><strong>ワークショップ・イベント企画</strong><br></br>
-            デジタル技術に触れるワークショップなどの企画を行います<br></br>
+            <li>
+              <strong>ワークショップ・イベント企画</strong>
+              <br></br>
+              デジタル技術に触れるワークショップなどの企画を行います<br></br>
               <a
                 href="/EnjoinTree"
                 title="enjointree"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              参考事例
+                参考事例
               </a>
             </li>
           </ul>
-
-
-        
           <figure className="kg-card kg-image-card ">
-            <Img
-              fluid={data.nd3mlogoPic.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.nd3mlogoPic.childImageSharp.gatsbyImageData}
               className="kg-image"
-              style={{ margin: "1rem auto" }}
+              style={{ margin: "1rem auto", maxWidth: "400px" }}
             />
             {/* <figcaption >Large imagery is at the heart of this theme</figcaption> */}
           </figure>
-
           <p>
             <h4>沿革</h4>
             <table>
               <tbody>
                 <tr>
                   <td>2019.11</td>
-                  <td>ND3M結成， "Enjointing Spagetoini" 開催
-                  </td>
+                  <td>ND3M結成， "Enjointing Spagetoini" 開催</td>
                 </tr>
                 <tr>
                   <td>2020.03</td>
@@ -185,13 +189,12 @@ const AboutPage = ({ data }, location) => {
               </tbody>
             </table>
           </p>
-            
-
           <p>
-          <h4>お問い合わせ</h4>
+            <h4>お問い合わせ</h4>
             コンタクトは右上のSNS等からお待ちしております.
-          <br></br>
-          プロジェクトのお誘いやご相談, チームへの参加希望など, お気軽にご連絡ください. 
+            <br></br>
+            プロジェクトのお誘いやご相談, チームへの参加希望など,
+            お気軽にご連絡ください.
           </p>
           {/* <p>
             Both post and page templates are light and minimal, with all the
@@ -212,8 +215,8 @@ const AboutPage = ({ data }, location) => {
         </div>
       </article>
     </Layout>
-  )
-}
+  );
+};
 
 const indexQuery = graphql`
   query {
@@ -224,22 +227,16 @@ const indexQuery = graphql`
     }
     nd3mlogoPic: file(relativePath: { eq: "aboutpage_logo.png" }) {
       childImageSharp {
-        fluid(maxWidth: 400, quality: 100) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 400)
       }
     }
     nd3maboutPic: file(relativePath: { eq: "about.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1000, quality: 100) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 1000)
       }
     }
   }
-`
+`;
 
 export default props => (
   <StaticQuery
@@ -248,4 +245,4 @@ export default props => (
       <AboutPage location={props.location} data={data} {...props} />
     )}
   />
-)
+);

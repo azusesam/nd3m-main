@@ -55,8 +55,8 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://twitter.com/nagoya_d3m"
-                title="Twitter"
+                href="https://x.com/nagoya_d3m"
+                title="X"
                 target="_blank"
                 rel="noopener noreferrer"
               >
