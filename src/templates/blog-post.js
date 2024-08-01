@@ -1,23 +1,23 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { graphql } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
 
-import { globalHistory } from "@reach/router"
+import { globalHistory } from "@reach/router";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Share from "../components/share"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import Share from "../components/share";
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const siteUrl = this.props.data.site.siteMetadata.siteUrl
-    const path = globalHistory.location.pathname
+    const post = this.props.data.markdownRemark;
+    const siteTitle = this.props.data.site.siteMetadata.title;
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl;
+    const path = globalHistory.location.pathname;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
+        <Seo
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
@@ -34,9 +34,11 @@ class BlogPostTemplate extends React.Component {
 
           {post.frontmatter.thumbnail && (
             <div className="post-content-image">
-              <Img
+              <GatsbyImage
                 className="kg-image"
-                fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+                image={
+                  post.frontmatter.thumbnail.childImageSharp.gatsbyImageData
+                }
                 alt={post.frontmatter.title}
               />
             </div>
@@ -55,11 +57,11 @@ class BlogPostTemplate extends React.Component {
           </footer>
         </article>
       </Layout>
-    )
+    );
   }
 }
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -76,16 +78,14 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
         description
         thumbnail {
           childImageSharp {
-            fluid(maxWidth: 1360) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: FULL_WIDTH, width: 1360)
           }
         }
       }
     }
   }
-`
+`;

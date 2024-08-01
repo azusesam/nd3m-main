@@ -1,14 +1,27 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import { Facebook, Twitter } from "react-sharingbuttons"
+import React from "react";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon
+} from "react-share";
 
-const SharingButtons = ({ title, url }) => {
+const ShareButtonList = ({ title, url }) => {
   return (
     <>
-      <Facebook url={url} />
-      <Twitter url={url} shareText={title} />
-    </>
-  )
-}
+      <FacebookShareButton
+        url={url}
+        quote={title}
+        style={{ boxShadow: "none" }}
+      >
+        <FacebookIcon size={40} round={true} />
+      </FacebookShareButton>
 
-export default SharingButtons
+      <TwitterShareButton url={url} title={title} style={{ boxShadow: "none" }}>
+        <TwitterIcon size={40} round={true} />
+      </TwitterShareButton>
+    </>
+  );
+};
+
+export default ShareButtonList;

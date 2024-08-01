@@ -1,34 +1,37 @@
-import React from "react"
-import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 
-import "../utils/normalize.css"
-import "../utils/css/screen.css"
+import "../utils/normalize.css";
+import "../utils/css/screen.css";
 
 const AboutPage = ({ data }, location) => {
-  const siteTitle = data.site.siteMetadata.title
+  const siteTitle = data.site.siteMetadata.title;
 
   return (
     <Layout title={siteTitle}>
-      <SEO
+      <Seo
         title="Member"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
 
-      <article className="post-content page-template no-image" > 
-        <div className="post-content-body" >
+      <article className="post-content page-template no-image">
+        <div className="post-content-body">
           {/* <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
               　<p>Nagoya </p>
               <p>Digital Design Developers</p>
               <p>Meeting</p>
           </h2> */}
-          <h1>Team</h1> 
-          <h4>Transform the Design and Architectural Process Using Digital Technology.<br></br>
-          デジタル技術を用いた，デザイン・コンストラクションプロセスの変革を目指す．</h4>   
-       
+          <h1>Team</h1>
+          <h4>
+            Transform the Design and Architectural Process Using Digital
+            Technology.<br></br>
+            デジタル技術を用いた，デザイン・コンストラクションプロセスの変革を目指す．
+          </h4>
+
           <p>
             <br></br>
             設計者，エンジニア，研究者，学生... <br></br>
@@ -36,23 +39,23 @@ const AboutPage = ({ data }, location) => {
             それぞれ独自の専門領域をもつメンバーが，コンピュテーショナルデザインを追求することを目的に集まり，コラボレーションによる相乗効果を狙うチームです．
             <br></br>
             <br></br>
-            設立からメンバーが入れ替わりながらも，様々な関わり方で現在8名が在籍しています．また，Research&Engineeringコミュニテイとして， 外部からもメンバーを募り勉強会などを行う場も設けています．
-            <br></br><br></br>
+            設立からメンバーが入れ替わりながらも，様々な関わり方で現在8名が在籍しています．また，Research&Engineeringコミュニテイとして，
+            外部からもメンバーを募り勉強会などを行う場も設けています．
+            <br></br>
+            <br></br>
           </p>
 
-          
           <h3>Member</h3>
 
-          {/* <figure className="kg-card kg-image-card kg-image-left">
+          <figure className="kg-card kg-image-card kg-image-left">
             <left>
-            <Img
-              fluid={data.azuProfile.childImageSharp.fluid}
-              className="kg-image"
-              style={{ margin: "0" }}
-            />
+              <GatsbyImage
+                image={data.azuProfile.childImageSharp.gatsbyImageData}
+                className="kg-image"
+                style={{ margin: "0", maxWidth: "300px" }}
+              />
             </left>
-            <figcaption >Large imagery is at the heart of this theme</figcaption>
-          </figure> */}
+          </figure>
           <h4 id="dynamic-styles">田住梓 / AZU</h4>
           <p>
             <strong>Azusa TAZUMI</strong>
@@ -67,24 +70,24 @@ const AboutPage = ({ data }, location) => {
             3Dプリンタを中心に，デジタルファブリケーションによる新しい表現やしくみを模索中です. <br></br>
             ND3Mでは実装/施工を中心に活動中，
             <br></br> */}
-            <a href="https://twitter.com/azusa353" rel="noreferrer" target="_blank">
+            <a
+              href="https://twitter.com/azusa353"
+              rel="noreferrer"
+              target="_blank"
+            >
               Twitter:@azusa353
             </a>
             <br></br>
             <br></br>
           </p>
 
-
-
-
-          {/* <figure className="kg-card kg-image-card kg-image-left">
-            <Img
-              fluid={data.medyProfile.childImageSharp.fluid}
+          <figure className="kg-card kg-image-card kg-image-left">
+            <GatsbyImage
+              image={data.medyProfile.childImageSharp.gatsbyImageData}
               className="kg-image"
-              style={{ margin: "0" }}
+              style={{ margin: "0", maxWidth: "300px" }}
             />
-            <figcaption >Large imagery is at the heart of this theme</figcaption> 
-          </figure> */}
+          </figure>
           <h4 id="dynamic-styles">池本しょうこ / MEDY</h4>
           <p>
             <strong>Shoko IKEMTO</strong>
@@ -100,21 +103,24 @@ const AboutPage = ({ data }, location) => {
             <br></br>
             実務設計とアカデミックを横断しながら新しい価値を実装・実現していきます，建築とアイドルと演劇に命をかけてます.
             <br></br> */}
-            <a href="https://twitter.com/408321date" rel="noreferrer" target="_blank">
+            <a
+              href="https://twitter.com/408321date"
+              rel="noreferrer"
+              target="_blank"
+            >
               Twitter:@408321date
             </a>
             <br></br>
             <br></br>
           </p>
 
-          {/* <figure className="kg-card kg-image-card kg-image-left">
-            <Img
-              fluid={data.someProfile.childImageSharp.fluid}
+          <figure className="kg-card kg-image-card kg-image-left">
+            <GatsbyImage
+              image={data.someProfile.childImageSharp.gatsbyImageData}
               className="kg-image"
-              style={{ margin: "0" }}
+              style={{ margin: "0", maxWidth: "300px" }}
             />
-             <figcaption >Large imagery is at the heart of this theme</figcaption> 
-          </figure> */}
+          </figure>
           <h4 id="dynamic-styles">近藤広隆 / コンソメ</h4>
           <p>
             <strong>Hirotaka KONDO</strong>
@@ -133,20 +139,18 @@ const AboutPage = ({ data }, location) => {
             <br></br> */}
           </p>
 
-
-          {/* <figure className="kg-card kg-image-card kg-image-left">
-            <Img
-              fluid={data.sumiProfile.childImageSharp.fluid}
+          <figure className="kg-card kg-image-card kg-image-left">
+            <GatsbyImage
+              image={data.sumiProfile.childImageSharp.gatsbyImageData}
               className="kg-image"
-              style={{ margin: "0" }}
+              style={{ margin: "0", maxWidth: "300px" }}
             />
-            <figcaption >Large imagery is at the heart of this theme</figcaption> 
-          </figure> */}
+          </figure>
           <h4 id="dynamic-styles">鷲見良</h4>
           <p>
             <strong>Ryo SUMI</strong>
             <br></br>
-          デジタルファブリケーション，建築意匠設計
+            デジタルファブリケーション，建築意匠設計
             <br></br>
             <br></br>
             {/* 2000.8　愛知県名古屋市出身<br></br>
@@ -157,21 +161,24 @@ const AboutPage = ({ data }, location) => {
             粘土3Dプリンターや大口径ノズルFDM3Dプリンターを用い，建築への3Dプリンターの導入，
             3Dプリント建築のデザイン手法を模索しています，現在は土壁を3Dプリントしています.
             <br></br> */}
-            <a href="https://twitter.com/645pro_repo" rel="noreferrer" target="_blank">
+            <a
+              href="https://twitter.com/645pro_repo"
+              rel="noreferrer"
+              target="_blank"
+            >
               Twitter:@645pro_repo
             </a>
             <br></br>
             <br></br>
           </p>
 
-          {/* <figure className="kg-card kg-image-card kg-image-left">
-            <Img
-              fluid={data.naoProfile.childImageSharp.fluid}
+          <figure className="kg-card kg-image-card kg-image-left">
+            <GatsbyImage
+              image={data.naoProfile.childImageSharp.gatsbyImageData}
               className="kg-image"
-              style={{ margin: "0" }}
+              style={{ margin: "0", maxWidth: "300px" }}
             />
-             <figcaption >Large imagery is at the heart of this theme</figcaption> 
-          </figure> */}
+          </figure>
           <h4 id="dynamic-styles">田川直樹</h4>
           <p>
             <strong>Naoki TAGAWA</strong>
@@ -187,8 +194,7 @@ const AboutPage = ({ data }, location) => {
             <br></br>
             <br></br> */}
           </p>
-          
-        
+
           <h4 id="dynamic-styles">銭健一</h4>
           <p>
             <strong>Kenichi SEN</strong>
@@ -212,24 +218,27 @@ const AboutPage = ({ data }, location) => {
 
           <h3>メンバー募集について</h3>
           <p>
-         現在正規メンバーの募集は不定期で行っております。正規メンバー以外にもプロジェクト単位で参画するコラボレーターなど，様々なかたちで参画していただいています。<br></br>
-         また，次回メンバー募集の際に優先して声をかけさせていただく場合もありますので，興味のある方はぜひ一度ご連絡ください．<br></br>
-          <br></br>
-          建築専門に限らず，機械や情報系など，他の専門でで建築情報学領域に興味のある方も歓迎します．<br></br>
-          <br></br>
+            現在正規メンバーの募集は不定期で行っております。正規メンバー以外にもプロジェクト単位で参画するコラボレーターなど，様々なかたちで参画していただいています。
+            <br></br>
+            また，次回メンバー募集の際に優先して声をかけさせていただく場合もありますので，興味のある方はぜひ一度ご連絡ください．
+            <br></br>
+            <br></br>
+            建築専門に限らず，機械や情報系など，他の専門でで建築情報学領域に興味のある方も歓迎します．
+            <br></br>
+            <br></br>
           </p>
-          
+
           <h5>R&Eコミュニティについて</h5>
           <p>
-          <ul>
-            <li>所属先を問わず，建築情報学領域を学びたい人が学べる場所を作る</li>
-            <li>建築情報学領域に関わる仲間や輪を広げていく</li>
-          </ul>
-          このような場を目指し，随時メンバーを募集しています．自由参加で，休日中心に勉強会やハンズオンなどを開催しています．参加メンバーがファシリテーターとなり進めています．
-          参加希望の方はSNS、メール等でご連絡ください．
+            <ul>
+              <li>
+                所属先を問わず，建築情報学領域を学びたい人が学べる場所を作る
+              </li>
+              <li>建築情報学領域に関わる仲間や輪を広げていく</li>
+            </ul>
+            このような場を目指し，随時メンバーを募集しています．自由参加で，休日中心に勉強会やハンズオンなどを開催しています．参加メンバーがファシリテーターとなり進めています．
+            参加希望の方はSNS、メール等でご連絡ください．
           </p>
-          
-
 
           {/* <p>
             Both post and page templates are light and minimal, with all the
@@ -250,8 +259,8 @@ const AboutPage = ({ data }, location) => {
         </div>
       </article>
     </Layout>
-  )
-}
+  );
+};
 
 const indexQuery = graphql`
   query {
@@ -262,63 +271,37 @@ const indexQuery = graphql`
     }
     medyProfile: file(relativePath: { eq: "member/medy.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 300, quality: 100, grayscale: true) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 300)
       }
     }
     someProfile: file(relativePath: { eq: "member/some.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 300, quality: 100, grayscale: true) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 300)
       }
     }
-   
-    konoProfile: file(relativePath: { eq: "member/tty.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 300, quality: 100, grayscale: true) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
-      }
-    }
+
     azuProfile: file(relativePath: { eq: "member/azu.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 300, quality: 100, grayscale: true) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 300)
       }
     }
     sumiProfile: file(relativePath: { eq: "member/sumi.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 300, quality: 100, grayscale: true) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 300)
       }
     }
     seiProfile: file(relativePath: { eq: "member/sei.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 300, quality: 100, grayscale: true) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 300)
       }
     }
     naoProfile: file(relativePath: { eq: "member/nao.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 300, quality: 100, grayscale: true) {
-          ...GatsbyImageSharpFluid
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
+        gatsbyImageData(layout: FULL_WIDTH, width: 300)
       }
     }
   }
-`
+`;
 
 export default props => (
   <StaticQuery
@@ -327,4 +310,4 @@ export default props => (
       <AboutPage location={props.location} data={data} {...props} />
     )}
   />
-)
+);

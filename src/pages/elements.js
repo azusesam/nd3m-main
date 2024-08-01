@@ -1,19 +1,19 @@
-import React from "react"
-import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import { GatsbyImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 
-import "../utils/normalize.css"
-import "../utils/css/screen.css"
+import "../utils/normalize.css";
+import "../utils/css/screen.css";
 
 const ElementsPage = ({ data }, location) => {
-  const siteTitle = data.site.siteMetadata.title
+  const siteTitle = data.site.siteMetadata.title;
 
   return (
     <Layout title={siteTitle}>
-      <SEO
+      <Seo
         title="All posts"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
@@ -45,8 +45,9 @@ const ElementsPage = ({ data }, location) => {
             </code>
             . Finally, this is a <a href="#">link</a>.
           </p>
-          <h2 id="heading-level-2">Heading Level 2<br>
-          </br>サンチーム</h2>
+          <h2 id="heading-level-2">
+            Heading Level 2<br></br>サンチーム
+          </h2>
           <h3 id="heading-level-3">Heading Level 3</h3>
           <h4 id="heading-level-4">Heading Level 4</h4>
           <h5 id="heading-level-5">Heading Level 5</h5>
@@ -138,22 +139,22 @@ const ElementsPage = ({ data }, location) => {
           <hr />
           <h2 id="images">Images</h2>
           <figure className="kg-card kg-image-card">
-            <Img
-              fluid={data.smallPic.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.smallPic.childImageSharp.gatsbyImageData}
               className="kg-image"
             />
             <figcaption>Regular image</figcaption>
           </figure>
           <figure className="kg-card kg-image-card kg-width-wide">
-            <Img
-              fluid={data.medPic.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.medPic.childImageSharp.gatsbyImageData}
               className="kg-image"
             />
             <figcaption>Large image</figcaption>
           </figure>
           <figure className="kg-card kg-image-card kg-width-full">
-            <Img
-              fluid={data.largePic.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.largePic.childImageSharp.gatsbyImageData}
               className="kg-image"
             />
             <figcaption>Full bleed image</figcaption>
@@ -385,7 +386,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 12
@@ -398,7 +399,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 3
@@ -409,7 +410,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 9
@@ -422,7 +423,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 6
@@ -433,7 +434,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 6
@@ -446,7 +447,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 auto
@@ -457,7 +458,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 auto
@@ -468,7 +469,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 auto
@@ -481,7 +482,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 auto
@@ -492,7 +493,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 auto
@@ -503,7 +504,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 auto
@@ -514,7 +515,7 @@ const ElementsPage = ({ data }, location) => {
                 style={{
                   padding: "1rem 0",
                   textAlign: "center",
-                  background: "#eee",
+                  background: "#eee"
                 }}
               >
                 auto
@@ -524,8 +525,8 @@ const ElementsPage = ({ data }, location) => {
         </div>
       </article>
     </Layout>
-  )
-}
+  );
+};
 
 const indexQuery = graphql`
   query {
@@ -560,7 +561,7 @@ const indexQuery = graphql`
       }
     }
   }
-`
+`;
 
 export default props => (
   <StaticQuery
@@ -569,4 +570,4 @@ export default props => (
       <ElementsPage location={props.location} data={data} {...props} />
     )}
   />
-)
+);
