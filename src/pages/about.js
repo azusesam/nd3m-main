@@ -29,13 +29,6 @@ const AboutPage = ({ data }, location) => {
               新たな建築を模索するギルド的集団です
             </p>
           </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
-            <GatsbyImage
-              image={data.nd3maboutPic.childImageSharp.gatsbyImageData}
-              className="kg-image"
-              style={{ margin: "1rem auto", maxWidth: "1000px" }}
-            />
-          </figure>
           <p>
             {" "}
             建築情報学領域を中心に，デザイン・制作・研究・勉強会・イベント企画など幅広く活動をしています．
