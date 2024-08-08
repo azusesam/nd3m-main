@@ -121,7 +121,7 @@ const AboutPage = ({ data }, location) => {
               style={{ margin: "0", maxWidth: "300px" }}
             />
           </figure>
-          <h4 id="dynamic-styles">近藤広隆 / コンソメ</h4>
+          <h4 id="dynamic-styles">近藤広隆 / コンソメ </h4>
           <p>
             <strong>Hirotaka KONDO</strong>
             <br></br>
