@@ -47,15 +47,6 @@ const AboutPage = ({ data }, location) => {
 
           <h3>Member</h3>
 
-          <figure className="kg-card kg-image-card kg-image-left">
-            <left>
-              <GatsbyImage
-                image={data.azuProfile.childImageSharp.gatsbyImageData}
-                className="kg-image"
-                style={{ margin: "0", maxWidth: "300px" }}
-              />
-            </left>
-          </figure>
           <h4 id="dynamic-styles">田住梓 / AZU</h4>
           <p>
             <strong>Azusa TAZUMI</strong>
@@ -81,13 +72,6 @@ const AboutPage = ({ data }, location) => {
             <br></br>
           </p>
 
-          <figure className="kg-card kg-image-card kg-image-left">
-            <GatsbyImage
-              image={data.medyProfile.childImageSharp.gatsbyImageData}
-              className="kg-image"
-              style={{ margin: "0", maxWidth: "300px" }}
-            />
-          </figure>
           <h4 id="dynamic-styles">池本しょうこ / MEDY</h4>
           <p>
             <strong>Shoko IKEMTO</strong>
@@ -114,13 +98,6 @@ const AboutPage = ({ data }, location) => {
             <br></br>
           </p>
 
-          <figure className="kg-card kg-image-card kg-image-left">
-            <GatsbyImage
-              image={data.someProfile.childImageSharp.gatsbyImageData}
-              className="kg-image"
-              style={{ margin: "0", maxWidth: "300px" }}
-            />
-          </figure>
           <h4 id="dynamic-styles">近藤広隆 / コンソメ </h4>
           <p>
             <strong>Hirotaka KONDO</strong>
@@ -139,13 +116,6 @@ const AboutPage = ({ data }, location) => {
             <br></br> */}
           </p>
 
-          <figure className="kg-card kg-image-card kg-image-left">
-            <GatsbyImage
-              image={data.sumiProfile.childImageSharp.gatsbyImageData}
-              className="kg-image"
-              style={{ margin: "0", maxWidth: "300px" }}
-            />
-          </figure>
           <h4 id="dynamic-styles">鷲見良</h4>
           <p>
             <strong>Ryo SUMI</strong>
@@ -172,13 +142,6 @@ const AboutPage = ({ data }, location) => {
             <br></br>
           </p>
 
-          <figure className="kg-card kg-image-card kg-image-left">
-            <GatsbyImage
-              image={data.naoProfile.childImageSharp.gatsbyImageData}
-              className="kg-image"
-              style={{ margin: "0", maxWidth: "300px" }}
-            />
-          </figure>
           <h4 id="dynamic-styles">田川直樹</h4>
           <p>
             <strong>Naoki TAGAWA</strong>
