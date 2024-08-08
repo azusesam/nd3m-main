@@ -1,7 +1,7 @@
 ---
 title: 3D Printing WS
 date: "2023-09-01"
-thumbnail: ./thumbnail.jpg
+thumbnail: ./thumbnail.JPG
 description: みらいのこどもワークショップin岐阜
 ---
 
