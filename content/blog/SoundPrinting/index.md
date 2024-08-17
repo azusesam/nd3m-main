@@ -7,7 +7,7 @@ description: 音の波形Gcodeに変換し積み上げることで音を物質�
 
 ## 音標本の庭
 
-[WILD FAb FESTIVAL](../WildFab)の展示として，吉野の音を録音し，波形をGcodeに変換することで，音を可視化し，物質として表現するプロトタイピングを実施しました．
+[WILD FAB FESTIVAL](../WildFab)の展示として，吉野の音を録音し，波形を Gcode に変換することで，音を可視化し，物質として表現するプロトタイピングを実施しました．
 
 ![main2](./main2.JPG)
 ![main](./main.JPG)
@@ -15,7 +15,7 @@ description: 音の波形Gcodeに変換し積み上げることで音を物質�
 吉野の様々な場所で，環境音を録音します．
 ![rokuonplace](./yosinorokuon.JPG)
 
-録音した音から波形を取得し，Gcodeとして縦に積み上げていきます．
+録音した音から波形を取得し，Gcode として縦に積み上げていきます．
 ![GH](./GH.JPG)
 
 時間変化により波形が変化し，録音した場所により，様々な音の要素が現れます．
@@ -30,7 +30,6 @@ description: 音の波形Gcodeに変換し積み上げることで音を物質�
 ![tenzi4](./tenzi4.JPG)
 ![tenzi5](./tenzi5.JPG)
 
-
 <br>
 また，取得した音をリアルタイムにプリントする試みも行いました．<br>
 マイクの音をリアルタイムにGcodeへ適用し，出力中の円柱のパスにノイズを加え，室内の盛り上がりを可視化しました．
@@ -38,7 +37,6 @@ description: 音の波形Gcodeに変換し積み上げることで音を物質�
 ![realtime](./realtime.JPG)
 
 `youtube:https://www.youtube.com/embed/vReZGJnFhjg`
-
 
 Date : 2022.03.19<br>
 Category : installation, 3Dprint
